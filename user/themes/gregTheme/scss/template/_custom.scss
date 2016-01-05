@@ -13,3 +13,12 @@
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem;
 }
+
+.float-right {
+  float: right;
+  margin-left: 1.5rem;
+}
+.float-left {
+  float: left;
+  margin-right: 1.5rem;
+}

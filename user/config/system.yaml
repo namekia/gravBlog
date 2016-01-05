@@ -3,9 +3,14 @@ home:
 
 pages:
   theme: gregtheme
+  markdown:
+    extra: true     # False by default; copied from system/config/system.yaml
   process:
     markdown: true
     twig: false
+
+markdown:
+  extra: true
 
 cache:
   enabled: true
