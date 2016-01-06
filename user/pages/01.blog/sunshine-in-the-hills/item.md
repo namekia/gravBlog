@@ -1,7 +1,7 @@
 ---
-title: Sunshine Topps the gMountain
+title: Thunder Topps the gMountain
 date: 14:55 07/11/2014
-author: Tasha Maxwell
+author: Dono Topin
 taxonomy:
     category: blog
     tag: [journal, photography]
