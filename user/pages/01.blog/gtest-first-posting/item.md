@@ -1,5 +1,5 @@
 ---
-title: Test Post with Header Image
+title: Toasty GIT with Header Image
 date: 14:55 01/04/2016
 author: Gregory Chambers
 taxonomy:
