@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: Toasty 12345 GIT with Header Image
+=======
+title: Test Post with Header Image
+>>>>>>> parent of 712ec58... Auto GIT?
 date: 14:55 01/04/2016
 author: Gregory Chambers
 taxonomy:
