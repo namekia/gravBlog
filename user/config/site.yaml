@@ -1,15 +1,14 @@
-title: Grav
+title: gChambers
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: Gregory Chambers
+  email: 'greg@gChambers.com'
 blog:
   route: ''
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'My phone decided the good chicken, indeed logical. Softly fixed, a pack gives your sweater of warm plastics after solutions.'
 taxonomies: [category,tag,month]
 redirects:
     /changelog: /blog/the-urban-jungle
 routes:
     /something/else: /blog/focus-and-blur
     /another/one/(.*): /blog/$1
-
