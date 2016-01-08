@@ -3,7 +3,7 @@ date_default_timezone_set('America/Chicago');
 ignore_user_abort(true);
 set_time_limit(0);
 
-$repo          = 'git@github.com:namekia/gravBlog.git';
+$repo          = 'https://github.com/namekia/gravBlog';
 $branch        = 'master';
 $output        = array();
 
