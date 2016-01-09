@@ -1,2 +1,5 @@
+cache:
+  gzip: false                  # GZip compress the page output
+
 debugger:
-  enabled: true
+  enabled: true               # Enable Grav debugger and following settings
