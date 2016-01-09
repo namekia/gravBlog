@@ -11,4 +11,7 @@ taxonomy:
 Solution:
 create a configuration file just for localhost.
 user/localhost/config/system.yaml
+
+FINISH this some other time
+
 ![something](gzipSnag.jpg)
