@@ -22,22 +22,3 @@
   float: left;
   margin-right: 1.5rem;
 }
-
-/*Darkens the backround color of the header bar after the page has been scorlled. Default color was white.*/
-
-#header.scrolled {
-  /*background-color: hsla(0, 0%, 70%, 0.8) !important;*/
-  background-color: red !important;
-}
-#header #logo h3 {
-  text-transform: none;
-  margin-left: 63px;
-}
-#header #logo {
-  background: url('../images/gBug_round.svg') no-repeat;
-  background-size: contain;
-  margin-top: 1rem;
-}
-#header.scrolled #logo {
-  margin-top: 0;
-}
