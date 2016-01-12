@@ -22,5 +22,5 @@ feed:
 pagination: true
 ---
 
-# Mountain Vacation
-## Amazing **Photos** and  **Ramblings**
+# Greg&rsquo;s Sandbox
+## Notes and Observations &mdash; Grav CMS
