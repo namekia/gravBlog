@@ -1,6 +1,6 @@
 /*Darkens the backround color of the header bar after the page has been scorlled. Default color was white.*/
 
-header #header.scrolled {
+#header.scrolled {
   background-color: hsla(0, 0%, 70%, 0.75) !important;
 }
 #header #logo h3 {
