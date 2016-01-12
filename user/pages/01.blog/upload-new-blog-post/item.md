@@ -1,5 +1,5 @@
 ---
-title: Test Upload of a New Blog Post
+title: Test Change TItle
 date: 13:56 01/08/2016
 author: Gregory Chambers
 taxonomy:
