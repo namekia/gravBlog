@@ -4,8 +4,9 @@ title: webMonkey
 state: enabled
 access:
   admin:
-    login: true
-    super: true
+    login: 'true'
+    super: 'true'
   site:
-    login: true
-hashed_password: $2y$10$y5bCqAZDgPITFgh3sL85VuWE/VG3WDTmhrbMMuKec3QDd1vRr8i2W
+    login: 'true'
+hashed_password: $2y$10$i1hhCzl5WL1b1EWNuZBkzeHuPZExTRvvkml3n/G0HIvhnwxOUGnvW
+language: en
