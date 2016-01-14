@@ -749,6 +749,21 @@ ul.pagination {
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem; }
 
+#header.scrolled {
+  background-color: rgba(179, 179, 179, 0.75) !important; }
+
+#header #logo h3 {
+  text-transform: none;
+  margin-left: 63px; }
+
+#header #logo {
+  background: url("../images/gBug_round.svg") no-repeat;
+  background-size: contain;
+  margin-top: 2rem; }
+
+#header.scrolled #logo {
+  margin-top: 0; }
+
 .float-right {
   float: right;
   margin-left: 1.5rem; }
