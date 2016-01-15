@@ -1,13 +1,13 @@
 // Your custom SCSS should be written here...
 
 .grav-lightslider {
-    .lSSlideOuter {
-        .lSPager.lSpg {
-            > li a {
-                z-index: 1;
-            }
-        }
+  .lSSlideOuter {
+    .lSPager.lSpg {
+      > li a {
+        z-index: 1;
+      }
     }
+  }
 }
 
 #body > script:first-child + .grav-lightslider {
@@ -23,6 +23,7 @@
 #header #logo h3 {
   text-transform: none;
   margin-left: 63px;
+  color: red;
 }
 
 #header #logo {

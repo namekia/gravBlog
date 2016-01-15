@@ -754,7 +754,8 @@ ul.pagination {
 
 #header #logo h3 {
   text-transform: none;
-  margin-left: 63px; }
+  margin-left: 63px;
+  color: red; }
 
 #header #logo {
   background: url("../images/gBug_round.svg") no-repeat;
