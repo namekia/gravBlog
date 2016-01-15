@@ -25,7 +25,7 @@ This will open the connection.
 then
 
 ```
-$ cd ~/public/gravBlog
+$ cd ~/public_html/gravBlog
 $ git pull
 ```
 something like the following will be returned
