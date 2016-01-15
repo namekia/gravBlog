@@ -17,19 +17,22 @@
 // Darkens the background color of the header bar after the page has been scrolled. Default color was white.*/
 
 #header.scrolled {
-  background-color: hsla(0, 0%, 70%, 0.75) !important;
+  background-color: hsla(0, 0%, 70%, .75) !important;
 }
 
 #header #logo h3 {
-  text-transform: none;
   margin-left: 63px;
+
+  text-transform: none;
+
   color: red;
 }
 
 #header #logo {
+  margin-top: 1rem;
+
   background: url('../images/gBug_round.svg') no-repeat;
   background-size: contain;
-  margin-top: 1rem;
 }
 
 #header.scrolled #logo {
@@ -38,12 +41,12 @@
 
 .float-right {
   float: right;
+
   margin-left: 1.5rem;
 }
 
 .float-left {
   float: left;
+
   margin-right: 1.5rem;
 }
-
-

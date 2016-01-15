@@ -1,10 +1,10 @@
 ---
-title: GitHub Code Notes 01asasas
+title: GitHub Code Notes Remote Server
 date: 11:30 01/06/2016
 author: Gregory Chambers
 taxonomy:
     category: blog
-    tag: [javascript, cms, grav, github]
+    tag: [git, cli]
 ---
 
 > Copies of code to be pasted into Git Bash for Setup and Usage of GitHub for Site Development
@@ -17,7 +17,9 @@ In git Bash:
 
 ```$ ssh s1ngaco@s1nga.com```
 
-then (RIGHT CLICK) copy/paste password: m4k*XUabuT2%
+> NOTE: look up password in LastPass
+
+then (RIGHT CLICK) copy/paste password: *****UabuT2%
 This will open the connection.
 
 then
@@ -26,7 +28,7 @@ then
 $ cd ~/public/gravBlog
 $ git pull
 ```
-someting like the following will be returned
+something like the following will be returned
 
 ```
 remote: Counting objects: 14, done.
@@ -52,7 +54,7 @@ date_default_timezone_set('America/Chicago');
 ignore_user_abort(true);
 set_time_limit(0);
 
-$repo          = '/home/s1ngaco/public_html/gravBlog';
+$repo          = '~/public_html/gravBlog';
 $branch        = 'master';
 $output        = array();
 
