@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 **Issue**
-Currently unable to do a fresh install of a grav instance via the CLI. Will need to pose a question in the forum asking for explicit instructions on using CLI with Windows.
+Currently unable to do a fresh install of a grav instance via the CLI. Will need to pose a question in the forum asking for explicit instructions on using CLI with Windows. 
 
 [Official Grav Cheatsheet](http://learn.getgrav.org/advanced/grav-cli "Command line tutorial")
 
