@@ -7,22 +7,26 @@ taxonomy:
     tag: [git, cli]
 ---
 
-> Copies of code to be pasted into Git Bash for Setup and Usage of GitHub for Site Development
-
-===
+>>>> Code to be pasted into Git Bash for Setup and Usage of GitHub for Site Development
 
 ** Open a SSH connection to remote s1nga server -- gravBlog **
 
 In git Bash:
 
-```$ ssh s1ngaco@s1nga.com```
+`$ ssh s1ngaco@s1nga.com`
 
-> NOTE: look up password in LastPass
+1. Look up password for s1nga cPanel in LastPass
 
 then (RIGHT CLICK) copy/paste password: *****UabuT2%
-This will open the connection.
+This will open the connection. Note that it will appear that the password was not pasted into the CLI. This is not true. The password _will_ be pasted, ot just won't look like it was.
 
-then
+If problems with the files on production (for example, after a grav update via Admin), then the production files can be removed (or moved up one level). At that point we would want to upload all the files from the git repository up to production.
+
+```markup
+$ cd ~/public_html
+$ git clone https://github.com/namekia/gravBlog.git
+```
+A GitHub Webhook will provide automatic upload from git repository to production server. If a GitHub Webhook has not yet been established, files can be manually uploaded with the following command.
 
 ```
 $ cd ~/public_html/gravBlog
