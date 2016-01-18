@@ -4,7 +4,7 @@ date: 15:51 01/12/2016
 author: Gregory Chambers
 taxonomy:
     category: blog
-    tag: [javascript, innerHTML, addEventListener]
+    tag: [javascript, innerHTML, UI]
 ---
 
 
