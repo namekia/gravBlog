@@ -18,7 +18,7 @@ In git Bash:
 1. Look up password for s1nga cPanel in LastPass
 
 then (RIGHT CLICK) copy/paste password: *****UabuT2%
-This will open the connection. Note that it will appear that the password was not pasted into the CLI. This is not true. The password _will_ be pasted, ot just won't look like it was.
+This will open the connection. Note that it will appear that the password was not pasted into the CLI. This is not true. The password _will_ be pasted, it just won't look like it was.
 
 If problems with the files on production (for example, after a grav update via Admin), then the production files can be removed (or moved up one level). At that point we would want to upload all the files from the git repository up to production.
 
@@ -48,6 +48,7 @@ Fast-forward
 ```
 **this is the manual process of uploading changes from the GitHub account to the remote server**
 
+The code below is reference to the `___github-refresher.php` file that is necessary for the GitHub Webhook to operate. Note that `___github-log.txt` is also necessary. If re-loading an existing GitHub repository, these files will be automatically included.
 ```
 ~/public_html/___github-refresher.php
 ```
