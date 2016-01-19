@@ -752,12 +752,15 @@ ul.pagination {
 h1, h2, h3, h4, h5, h6 {
   line-height: 2.3rem; }
 
-.scrolled#header {
-  background-color: rgba(179, 179, 179, 0.75) !important; }
+h1 + h2 {
+  margin-top: 1rem; }
 
 #header {
   box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.75);
   background-color: rgba(179, 179, 179, 0.75); }
+
+.scrolled#header {
+  background-color: rgba(179, 179, 179, 0.75) !important; }
 
 #header #logo {
   margin-top: 1rem;

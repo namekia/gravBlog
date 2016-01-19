@@ -16,16 +16,22 @@
 h1, h2, h3, h4, h5, h6 {
   line-height: 2.3rem;
 }
+//Title page -- add extra room above suhbead (H2) directly below main site title (H1)
+// Uses technique of "adjacent sibling" combinator to affect the H2 directly following H1
+h1 + h2 {
+  margin-top: 1rem;
+}
 
 // Darkens the background color of the header bar after the page has been scrolled. Default color was white.
 // The styles below are modifications of core to position and color the header and logo area
-// #header,
-.scrolled#header {
-  background-color: hsla(0, 0%, 70%, 0.75) !important;
-}
+
+
 #header {
   box-shadow: 0 0.05rem 1rem rgba(0,0,0,0.75);
   background-color: hsla(0, 0%, 70%, 0.75);
+}
+.scrolled#header {
+  background-color: hsla(0, 0%, 70%, 0.75) !important;
 }
 #header #logo {
   margin-top: 1rem;
