@@ -752,21 +752,27 @@ ul.pagination {
 h1, h2, h3, h4, h5, h6 {
   line-height: 2.3rem; }
 
-#header.scrolled {
+.scrolled#header {
   background-color: rgba(179, 179, 179, 0.75) !important; }
 
-#header #logo h3 {
-  margin-left: 63px;
-  text-transform: none;
-  color: red; }
+#header {
+  box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.75);
+  background-color: rgba(179, 179, 179, 0.75); }
 
 #header #logo {
   margin-top: 1rem;
   background: url("../images/gBug_round.svg") no-repeat;
   background-size: contain; }
 
-#header.scrolled #logo {
+.scrolled#header #logo {
   margin-top: 0; }
+
+#header #logo h3 {
+  margin-left: 90px;
+  text-transform: none; }
+
+.scrolled#header #logo h3 {
+  margin-left: 60px; }
 
 .float-right {
   float: right;

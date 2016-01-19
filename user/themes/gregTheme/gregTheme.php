@@ -3,6 +3,6 @@ namespace Grav\Theme;
 
 use Grav\Common\Theme;
 
-class gregTheme extends Antimatter
+class gregTheme extends Theme
 {
 }
