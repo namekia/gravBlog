@@ -1,5 +1,6 @@
 // Your custom SCSS should be written here...
-
+// ++++++++++++++++++++
+// These two were supplied out of the box. Helps control the removal of grav-lightslider menu
 .grav-lightslider {
   .lSSlideOuter {
     .lSPager.lSpg {
@@ -9,10 +10,13 @@
     }
   }
 }
-
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem;
 }
+// ++++++++++++++++++++!
+
+// ++++++++++++++++++++
+// General -- improve the handling of subheads. Note specific over-ride for the home page banner
 h1, h2, h3, h4, h5, h6 {
   line-height: 2.3rem;
 }
@@ -21,11 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 + h2 {
   margin-top: 1rem;
 }
+// ++++++++++++++++++++!
 
+// ++++++++++++++++++++
 // Darkens the background color of the header bar after the page has been scrolled. Default color was white.
 // The styles below are modifications of core to position and color the header and logo area
-
-
 #header {
   box-shadow: 0 0.05rem 1rem rgba(0,0,0,0.75);
   background-color: hsla(0, 0%, 70%, 0.75);
@@ -48,15 +52,16 @@ h1 + h2 {
 .scrolled#header #logo h3 {
   margin-left: 60px;
 }
+// ++++++++++++++++++++!
 
-
+// ++++++++++++++++++++
 // General-purpose utility classes -- primarily for use with images within content areas.
 .float-right {
   float: right;
   margin-left: 1.5rem;
 }
-
 .float-left {
   float: left;
   margin-right: 1.5rem;
 }
+// ++++++++++++++++++++!

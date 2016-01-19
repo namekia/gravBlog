@@ -22,10 +22,20 @@ The size of this image should be 900px x 300px @ 96dpi. The file name can be spe
 Images used within an article can be re-sized, cropped, tinted or any number of other operations. For example the code below will crop _Ducky_ to a width of 200px. The original image size is 500x546. The image is stored in the same folder as the article.
 
 ```markup
-![Rubber Ducky](Ducky_500px.png?cropResize=200,200) {.pull-right}
+![Rubber Ducky](Ducky_500px.png?cropResize=200,200) {.float-right}
 ```
-![Rubber Ducky](Ducky_500px.png?cropResize=200,200) {.pull-right}
+![Rubber Ducky](Ducky_500px.png?cropResize=200,200) {.float-right}
 
 Note that a class of _float-left_ has been specified. This is a custom class that I added to `_custom.scss`. Classes will only work if Markdown extra has been enabled &mdash; either in page front-matter or `user/config/system.yaml`.
 
 Another thing to be aware of is that there is some pretty heavy-duty caching being done to the content images and text. If an image alteration or name change doesn't seem to be showing any effect, it is probably a good idea to clear the cache -- either with CLI `bin/grav clear-cache` or through the Admin interface.
+
+### Creation of thumbnail images
+OK, we're going to try making some thumbnails. Is this possible? Let's find out.
+
+Just for fun, I'm going to create an images folder outside of the article folder.
+
+![Camera Girl](/images/cameraGirl.jpg.thumbnail.jpg)
+
+Does this work? No. Let's try something else.
+![Sample Image](/images/cameraGirl.jpg?display=thumbnail)
