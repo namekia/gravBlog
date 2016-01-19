@@ -1,5 +1,5 @@
 ---
-title: grav CLI commands with GitBash 123
+title: grav CLI commands with GitBash
 date: 13:09 01/15/2016
 author: Gregory Chambers
 taxonomy:
@@ -32,24 +32,29 @@ All of the commands listed below are compatible with any operating system.
 | bin/gpm uninstall | Removes an installed theme or plugin and cleares the cache. |
 | bin/gpm self-upgrade | Enables you to update Grav to the latest version. |
 
-Compendium of useful CLI commands
+### Compendium of useful CLI commands
 
-To get a list of all the commands available in Grav, you can run the command:
+To get a list of all the commands available in Grav, you can run the command:<br>
 ```$ bin/grav list```
 
-To get help for a specific command, you can prepend help to the command:
+To get help for a specific command, you can prepend help to the command:<br>
 ```$ bin/grav help install```
 
-Clear cache (localhost)
+Clear cache (localhost)<br>
 ```bin/grav clear-cache```
 
-The gitBash CLI needs to be opened from within the theme directory NOT the root directory.
-Watch scss folder for changes: ```$ scss --watch scss:css-compiled```
+**Watch SCSS folder for changes to: `_custom.scss`**
+
+A _separate_ gitBash CLI needs to be opened from within the theme root directory *NOT the site root directory*.
+Watch scss folder for changes: <br>
+`$ scss --watch scss:css-compiled`
 
 
-Style overrides or additions should be made in the _custom.scss file
-```$/user/themes/gregTheme/scss/template/_custom.scss```
+Style overrides or additions should be made in the _custom.scss file<br>
+`$/user/themes/gregTheme/scss/template/_custom.scss`
+
+**NOTE: THE INFORMATION BELOW IS NOT CORRECT. WILL NEED TO BE RE-WRITTEN AT A LATER DATE**
 
 **Creating a new project**
-Navigate to htdocs and create a new folder with project name. Open that folder and right-click inside. Choose "Git Bash Here".
-```$ bin/grav new-project ~/webroot/zzTestNewProject```
+Navigate to htdocs and create a new folder with project name. Open that folder and right-click inside. Choose "Git Bash Here".<br>
+`$ bin/grav new-project ~/webroot/zzTestNewProject`

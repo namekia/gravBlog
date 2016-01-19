@@ -749,6 +749,9 @@ ul.pagination {
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem; }
 
+h1, h2, h3, h4, h5, h6 {
+  line-height: 2.3rem; }
+
 #header.scrolled {
   background-color: rgba(179, 179, 179, 0.75) !important; }
 
