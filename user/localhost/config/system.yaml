@@ -82,7 +82,7 @@ assets:
   css_rewrite: true
   js_pipeline: false
   js_minify: true
-  enable_asset_timestamp: false
+  enable_asset_timestamp: true
   collections:
     jquery: 'system://assets/jquery/jquery-2.1.4.min.js'
 errors:

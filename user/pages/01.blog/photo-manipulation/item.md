@@ -1,5 +1,5 @@
 ---
-title: Manipulating Images Within a Post
+title: Manipulating Images Within a Post 123
 date: 14:19 01/18/2016
 author: Gregory Chambers
 summary:
@@ -35,7 +35,7 @@ OK, we're going to try making some thumbnails. Is this possible? Let's find out.
 
 Just for fun, I'm going to create an images folder outside of the article folder.
 
-![Camera Girl](/images/cameraGirl.jpg.thumbnail.jpg)
+![Camera Girl](/images/cameraGirl.JPG.thumb-jpg.jpg)
+![Camera Girl Again]()
 
-Does this work? No. Let's try something else.
-![Sample Image](/images/cameraGirl.jpg?display=thumbnail)
+Does this work?

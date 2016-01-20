@@ -74,7 +74,7 @@
             </div>
             <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
             <p>This is an example of extending the footer material. HTML is added to user/templates/partials/base.html.twig<br>
-            Recommended way to add copyright date? -- using PHP or JS?  &copy; <?php echo date('Y'); ?></p>
+            Recommended way to add copyright date? -- using PHP or JS?  &copy; <script>document.write(new Date().getFullYear()); </script></p>
         </footer>
         {% endblock %}
     </div>
