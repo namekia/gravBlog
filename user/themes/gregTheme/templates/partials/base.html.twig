@@ -30,10 +30,10 @@
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery',101) %}
+        {% do assets.addJs('jquery', {'priority':101, 'pipeline':false, 'loading':'async', 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/modernizr.custom.71422.js', {'priority':100, 'pipeline':false, 'loading':'async', 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/antimatter.js') %}
-        {% do assets.addJs('theme://js/slidebars.min.js') %}
+        {% do assets.addJs('theme://js/antimatter.js', {'priority':100, 'pipeline':false, 'loading':'async', 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/slidebars.min.js', {'priority':100, 'pipeline':false, 'loading':'async', 'group':'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
