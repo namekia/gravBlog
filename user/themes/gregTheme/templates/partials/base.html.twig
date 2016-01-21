@@ -30,7 +30,7 @@
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery',101) %}
+        {% do assets.addJs('jquery',101, {'loading':'async'}) %}
         {% do assets.addJs('theme://js/modernizr.custom.71422.js', {'priority':100, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/antimatter.js', {'priority':100, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/slidebars.min.js', {'priority':100, 'group':'bottom'}) %}

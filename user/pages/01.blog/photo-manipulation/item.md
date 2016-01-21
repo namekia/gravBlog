@@ -1,5 +1,5 @@
 ---
-title: Manipulating Images Within a Post 123
+title: Manipulating Images Within a Post
 date: 14:19 01/18/2016
 author: Gregory Chambers
 summary:
@@ -35,7 +35,23 @@ OK, we're going to try making some thumbnails. Is this possible? Let's find out.
 
 Just for fun, I'm going to create an images folder outside of the article folder.
 
-![Camera Girl](/images/cameraGirl.JPG.thumb-jpg.jpg)
-![Camera Girl Again]()
+![Camera Girl](/images/cameraGirl.jpg) 
 
-Does this work?
+`![Camera Girl](/images/cameraGirl.jpg )`
+
+
+![Camera Girl Again](/images/cameraGirl.jpg?lightbox=600,400&cropZoom=100,100)
+
+Does this work? <br>
+`![Camera Girl Again](/images/cameraGirl.jpg?lightbox=600,400&cropZoom=100,100)`
+
+It works but is pretty boring. Only opens up the full image in a plain new page.
+
+Let's try using a more responsive method.<br>
+`![Camera Girl 2x](cameraGirl.jpg?sizes=50vw)`
+
+![Camera Girl 2x](cameraGirl.jpg?sizes=50vw)
+
+Invoking the image in this manner causes Grav to fire up SRCSET support. The image will re-size fluidly at various browser widths.
+
+
