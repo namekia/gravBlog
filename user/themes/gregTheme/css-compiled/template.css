@@ -788,14 +788,15 @@ h1 + h2 {
 .simplegallery li {
   display: flex;
   list-style-type: none;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   align-items: flex-end; }
 
 .image-surround {
   flex: 2 0 auto; }
 
 .image-info {
-  padding-left: 1em; }
+  padding-left: 1em;
+  flex: 1 1 auto; }
   .image-info h2 {
     font-size: 1.5rem;
     line-height: 1.5rem;

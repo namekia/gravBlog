@@ -15,10 +15,35 @@ Fist thing is to title this page `gallery.md` instead of `item.md`. Inside the p
 
 | Effect | Result |
 |--------------------|
-|size | 1280 x 720 x72dpi |
+| original size | 1280 x 720 x 72dpi |
 | type | jpeg - low|
-|quality | 0 |
-|blur | 0.1 |
+| quality | 0 |
+| blur | 0.1 |
 | output | progressive |
+| auto-converted size | 300 x 200 x 72dpi |
 
 Special page created: `templates/gallery.html.twig`
+
+```
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    {{ page.content }}
+
+    <ul class="simplegallery">
+    {% for image in page.media.images %}
+    <li>
+        <div class="image-surround">
+            {{ image.cropResize(300,200).html }}
+        </div>
+        <div class="image-info">
+            <h2>{{ image.meta.title }}</h2>
+            <p>{{ image.meta.description }}
+        </div>
+    </li>
+    {% endfor %}
+    </ul>
+
+    {% endblock %}
+    ```
+    
