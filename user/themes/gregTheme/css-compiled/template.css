@@ -756,8 +756,8 @@ h1 + h2 {
   margin-top: 1rem; }
 
 #header {
-  box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.75);
-  background-color: rgba(179, 179, 179, 0.75); }
+  background-color: rgba(179, 179, 179, 0.75);
+  box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.75); }
 
 .scrolled#header {
   background-color: rgba(179, 179, 179, 0.75) !important; }
@@ -784,6 +784,26 @@ h1 + h2 {
 .float-left {
   float: left;
   margin-right: 1.5rem; }
+
+.simplegallery li {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: no-wrap;
+  align-items: flex-end; }
+
+.image-surround {
+  flex: 2 0 auto; }
+
+.image-info {
+  padding-left: 1em; }
+  .image-info h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0 0 0.5em; }
+  .image-info p {
+    font-size: 0.95rem;
+    line-height: 1.25rem;
+    margin: 0; }
 
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
