@@ -786,27 +786,17 @@ h1 + h2 {
   margin-right: 1.5rem; }
 
 .simplegallery li {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
+  list-style-type: none;
   flex-wrap: nowrap;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
   align-items: flex-end; }
 
-.simplegallery li {
-  list-style-type: none; }
+.image-surround {
+  flex: 1 0 auto; }
 
 .image-info {
   padding-left: 1em;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto; }
+  flex: 1 1 70%; }
   .image-info h2 {
     font-size: 1.5rem;
     line-height: 1.5rem;

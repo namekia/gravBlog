@@ -72,68 +72,41 @@ h1 + h2 {
 // ++++++++++++++++++++
 // Simple Image Gallery
 // ++++++++++++++++++++
-.simplegallery li {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-
-
-  -webkit-flex-wrap: nowrap;
-
-      -ms-flex-wrap: nowrap;
-
-          flex-wrap: nowrap;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.simplegallery li {
-  list-style-type: none;
-}
-
-// .image-surround {
-//   -webkit-box-flex: 2;
-//   -webkit-flex: 2 0 auto;
-//       -ms-flex: 2 0 auto;
-//           flex: 2 0 auto;
-// }
-
-.image-info {
-  padding-left: 1em;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  h2 {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    margin: 0 0 0.5em;
-  }
-  p {
-    font-size: 0.95rem;
-    line-height: 1.25rem;
-    margin: 0;
-  }
-}
-// ++++++++++++++++++++!
-// simplegallery li {
+// .simplegallery li {
+//   display: -webkit-box;
+//   display: -webkit-flex;
+//   display: -ms-flexbox;
 //   display: flex;
-//   list-style-type: none;
 
-//   flex-wrap: nowrap;
-//   align-items: flex-end;
+
+//   -webkit-flex-wrap: nowrap;
+
+//       -ms-flex-wrap: nowrap;
+
+//           flex-wrap: nowrap;
+//   -webkit-box-align: end;
+//   -webkit-align-items: flex-end;
+//       -ms-flex-align: end;
+//           align-items: flex-end;
+// }
+
+// .simplegallery li {
+//   list-style-type: none;
 // }
 
 // .image-surround {
-//   flex: 2 0 auto;
+  // -webkit-box-flex: 2;
+  // -webkit-flex: 2 0 auto;
+  //     -ms-flex: 2 0 auto;
+          // flex: auto;
 // }
 
 // .image-info {
 //   padding-left: 1em;
-//   flex: 1 1 auto;
+//   -webkit-box-flex: 1;
+//   -webkit-flex: 1 0 auto;
+//       -ms-flex: 1 0 auto;
+//           flex: 1 0 auto;
 //   h2 {
 //     font-size: 1.5rem;
 //     line-height: 1.5rem;
@@ -145,3 +118,30 @@ h1 + h2 {
 //     margin: 0;
 //   }
 // }
+// ++++++++++++++++++++!
+.simplegallery li {
+  display: flex;
+  list-style-type: none;
+
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.image-surround {
+  flex: 1 0 auto;
+}
+
+.image-info {
+  padding-left: 1em;
+  flex: 1 1 70%;
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0 0 0.5em;
+  }
+  p {
+    font-size: 0.95rem;
+    line-height: 1.25rem;
+    margin: 0;
+  }
+}
