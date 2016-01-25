@@ -801,12 +801,6 @@ h1 + h2 {
 .simplegallery li {
   list-style-type: none; }
 
-.image-surround {
-  -webkit-box-flex: 2;
-  -webkit-flex: 2 0 auto;
-  -ms-flex: 2 0 auto;
-  flex: 2 0 auto; }
-
 .image-info {
   padding-left: 1em;
   -webkit-box-flex: 1;
