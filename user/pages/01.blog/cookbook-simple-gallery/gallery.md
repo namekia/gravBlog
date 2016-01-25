@@ -28,6 +28,11 @@ Special page created: `templates/gallery.html.twig`
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
+
+{% if config.plugins.breadcrumbs.enabled %}
+        {% include 'partials/breadcrumbs.html.twig' %}
+    {% endif %}
+
     {{ page.content }}
 
     <ul class="simplegallery">
@@ -46,4 +51,4 @@ Special page created: `templates/gallery.html.twig`
 
     {% endblock %}
     ```
-    
+

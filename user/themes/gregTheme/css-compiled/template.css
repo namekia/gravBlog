@@ -811,6 +811,44 @@ h1 + h2 {
     line-height: 1.25rem;
     margin: 0; }
 
+@keyframes slidy {
+  0% {
+    left: 0; }
+  20% {
+    left: 0; }
+  25% {
+    left: -100%; }
+  45% {
+    left: -100%; }
+  50% {
+    left: -200%; }
+  70% {
+    left: -200%; }
+  75% {
+    left: -300%; }
+  95% {
+    left: -300%; }
+  100% {
+    left: -400%; } }
+body {
+  margin: 0; }
+
+#slider {
+  overflow: hidden;
+  max-height: 30rem;
+  margin-top: -3rem; }
+
+#slider figure img {
+  float: left;
+  width: 20%; }
+
+#slider figure {
+  position: relative;
+  left: 0;
+  width: 500%;
+  margin: 0;
+  animation: 30s slidy infinite; }
+
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
