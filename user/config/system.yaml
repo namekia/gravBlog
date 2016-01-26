@@ -43,10 +43,10 @@ images:
   default_image_quality: 85                 # Default image quality to use when resampling images (85%)
   cache_all: true                          # Cache all image by default
   cache_perms: '0755'                       # MUST BE IN QUOTES!! Default cache folder perms. Usually '0755' or '0775'
-  debug: false                              # Show an overlay over images indicating the pixel depth of the image when working with retina for example
+  debug: true                              # Show an overlay over images indicating the pixel depth of the image when working with retina for example
 
 media:
-  enable_media_timestamp: false             # Enable media timetsamps
+  enable_media_timestamp: true             # Enable media timetsamps
   upload_limit: 800                           # Set maximum upload size in bytes (0 is unlimited)
   unsupported_inline_types: []              # Array of supported media types to try to display inline
   allowed_fallback_types: []                # Array of allowed media types of files found if accessed via Page route

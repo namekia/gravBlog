@@ -1,7 +1,7 @@
 ---
 title: Home
 blog_url: blog
-banner: playground1200.jpg
+banner: walk1600.jpg
 body_classes: header-image fullwidth
 
 sitemap:

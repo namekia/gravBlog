@@ -2,6 +2,7 @@
 
 // ++++++++++++++++++++
 // Custom color variables for this site (specifically, this page)
+// Core file: /user/themes/gregTheme/scss/configuration/template/_colors.scss
 // ++++++++++++++++++++
 $logo-yello: hsla(39, 96%, 56%, 1);
 $text-darken: darken($core-text, 20);
@@ -51,6 +52,7 @@ h1 + h2 {
   box-shadow: 0 .05rem 1rem $header-gray;
   #logo {
     margin-top: 1rem;
+
     background: url('../images/gBug_round.svg') no-repeat;
     background-size: contain;
     h3 {
@@ -117,7 +119,6 @@ pre {
 // ++++++++++++++++++++
 .simplegallery li {
   display: flex;
-
   list-style-type: none;
 
   flex-wrap: nowrap;
@@ -135,13 +136,11 @@ pre {
   h2 {
     font-size: 1.5rem;
     line-height: 1.5rem;
-
     margin: 0 0 .5em;
   }
   p {
     font-size: .95rem;
     line-height: 1.25rem;
-
     margin: 0;
   }
 }
@@ -189,10 +188,8 @@ body {
   figure {
     position: relative;
     left: 0;
-
     width: 500%;
     margin: 0;
-
     animation: 30s slidy infinite;
   }
   figure img {

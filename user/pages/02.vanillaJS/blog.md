@@ -1,7 +1,7 @@
 ---
-title: Home
+title: vanillaJS
 blog_url: blog
-banner: playground1200.jpg
+banner: javascript1200.jpg
 body_classes: header-image fullwidth
 
 sitemap:
@@ -23,5 +23,5 @@ feed:
 pagination: true
 ---
 
-# Greg&rsquo;s Sandbox
-## Notes and Observations &mdash; Grav CMS
+# Javascript Sandbox
+## Can JavaScript &mdash; Grav Just Get Along?
