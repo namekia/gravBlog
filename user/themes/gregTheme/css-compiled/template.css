@@ -762,28 +762,25 @@ h1 + h2 {
 
 #header {
   background-color: rgba(179, 179, 179, 0.75);
-  box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.75); }
+  box-shadow: 0 0.05rem 1rem rgba(179, 179, 179, 0.75); }
+  #header #logo {
+    margin-top: 1rem;
+    background: url("../images/gBug_round.svg") no-repeat;
+    background-size: contain; }
+    #header #logo h3 {
+      margin-left: 90px;
+      text-transform: none; }
 
 .scrolled#header {
   background-color: rgba(179, 179, 179, 0.75) !important; }
-
-#header #logo {
-  margin-top: 1rem;
-  background: url("../images/gBug_round.svg") no-repeat;
-  background-size: contain; }
-
-.scrolled#header #logo {
-  margin-top: 0; }
-
-#header #logo h3 {
-  margin-left: 90px;
-  text-transform: none; }
-
-.scrolled#header #logo h3 {
-  margin-left: 60px; }
+  .scrolled#header #logo {
+    margin-top: 0; }
+    .scrolled#header #logo h3 {
+      margin-left: 60px;
+      text-transform: none; }
 
 pre {
-  padding: 0.7rem;
+  padding: .7rem;
   background: #fbaf23; }
   pre code {
     color: #111111; }
@@ -811,9 +808,9 @@ pre {
   .image-info h2 {
     font-size: 1.5rem;
     line-height: 1.5rem;
-    margin: 0 0 0.5em; }
+    margin: 0 0 .5em; }
   .image-info p {
-    font-size: 0.95rem;
+    font-size: .95rem;
     line-height: 1.25rem;
     margin: 0; }
 
