@@ -31,4 +31,4 @@ Then in the wrapper tag of our html, add the parameter `markdown="1"` to activat
   this content is wrapped into a div with class of "my-warpper"
 </div>
 ```
-That&rsquo;s all that needs to be done to insert markdown into an HTML chunk.
+That&rsquo;s all that needed to insert markdown into an HTML chunk.
