@@ -26,12 +26,7 @@ If problems with the files on production (for example, after a grav update via A
 $ cd ~/public_html
 $ git clone https://github.com/namekia/gravBlog.git
 ```
-A GitHub Webhook will provide automatic upload from git repository to production server. If a GitHub Webhook has not yet been established, files can be manually uploaded with the following command.
 
-```
-$ cd ~/public_html/gravBlog
-$ git pull
-```
 something like the following will be returned
 
 ```
@@ -45,6 +40,20 @@ Updating 4909e57..6f1a5c6
 Fast-forward
  user/pages/01.blog/sunshine-in-the-hills/item.md | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
+```
+**Not Finished Yet**
+Some directories had been excluded from GIT. These need to be created now. If the site was opened now, am Issues page would be displayed with 4 large red "X".  We need to create these directories not with Bash CLI:
+
+```
+$ cd ~/public_html/gravBlog
+$ mkdir assets logs images user/data
+```
+**Manual Uploads**
+A GitHub Webhook will provide automatic upload from git repository to production server. If a GitHub Webhook has not yet been established, files can be manually uploaded with the following command.
+
+```
+$ cd ~/public_html/gravBlog
+$ git pull
 ```
 **this is the manual process of uploading changes from the GitHub account to the remote server**
 
