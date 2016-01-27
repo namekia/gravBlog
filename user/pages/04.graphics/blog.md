@@ -23,4 +23,4 @@ feed:
 pagination: true
 ---
 
-### Examples and Notes on Web Graphic Techniques
+### Notes on Web Graphic Techniques
