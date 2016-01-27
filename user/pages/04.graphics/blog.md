@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Graphics
 blog_url: blog
 banner: parakeet1600.jpg
 body_classes: header-image fullwidth
@@ -23,5 +23,4 @@ feed:
 pagination: true
 ---
 
-# Greg&rsquo;s Sandbox
-## Notes and Observations &mdash; Grav CMS
+### Examples and Notes on Web Graphic Techniques

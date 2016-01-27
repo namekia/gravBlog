@@ -23,5 +23,4 @@ feed:
 pagination: true
 ---
 
-# GSAP Animation Sandbox
-## Movement and Interaction Notes
+### Movement and Interaction Notes

@@ -23,5 +23,4 @@ feed:
 pagination: true
 ---
 
-# Javascript Sandbox
-## Can JavaScript &mdash; Grav Just Get Along?
+### Can JavaScript &amp; Grav Get Along?
