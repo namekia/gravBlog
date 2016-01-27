@@ -1,5 +1,5 @@
 ---
-title: Home
+title: GSAP animation
 blog_url: blog
 banner: walk1600.jpg
 body_classes: header-image fullwidth
@@ -23,5 +23,5 @@ feed:
 pagination: true
 ---
 
-# Greg&rsquo;s Sandbox
-## Notes and Observations &mdash; Grav CMS
+# GSAP Animation Sandbox
+## Movement and Interaction Notes
