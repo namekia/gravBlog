@@ -2,7 +2,7 @@
 title: Contact Test Form
 
 form:
-    name: my-test-form
+    name: feedback
 
     fields:
       - name: name
