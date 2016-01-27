@@ -1,7 +1,7 @@
 enabled: true
-from: test0@gChambers.com
+from: 'test0@gChambers.com'
 from_name: Website Sender
-to: test1@gChambers.com
+to: 'test1@gChambers.com'
 to_name: Website Receiver
 mailer:
   engine: mail

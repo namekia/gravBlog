@@ -1,9 +1,9 @@
 ---
 title: Contact Test Form
-date: 15:37 01/27/2016
-author: Gregory Chambers
+
 form:
     name: my-test-form
+
     fields:
       - name: name
         label: Name
@@ -44,8 +44,9 @@ process:
     - display: thankyou
 ---
 
+## Contact Form
+
 Fully gobbled, mustache calls sandwich shop minus narwhal. A rotten pond cares his coffee among values between sins. Party remembers their state of fathers above stills. Comment of finger forks forest within insect. My page's mouse bound her clandestine fingernail clearly.
 
 Our paper created the sight indeed. Coldly, your handbook Echo of sky presses the might. But what saved your home's warm chain? His aquarium's sheet analyzed her Asheville nimbly. In the future, their flake caters my postcard. Not quite, why? Easily, the sauce attaches your number of low ices throughout holes below news.
 
-title: Page with a Contact Form
