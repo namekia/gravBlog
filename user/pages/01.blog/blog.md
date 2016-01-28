@@ -9,12 +9,13 @@ sitemap:
     priority: 1.03
 
 content:
-    items: @self.siblings
+    items:
+        '@page.descendants': /Sandbox
     order:
         by: date
         dir: desc
-    limit: 5
-    pagination: true
+    limit: 1
+    pagination: false
 
 feed:
     description: Sample Blog Description
