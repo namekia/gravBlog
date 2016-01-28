@@ -1,9 +1,7 @@
 ---
-title: Contact Test Form
-
+title: Contact
 form:
-    name: feedback
-
+    name: greg-feedback-form
     fields:
       - name: name
         label: Name
@@ -19,9 +17,10 @@ form:
         placeholder: Enter your email address
         type: email
         validate:
+          rule: email
           required: true
 
-    buttons:
+buttons:
       - type: submit
         value: Submit
       - type: reset
