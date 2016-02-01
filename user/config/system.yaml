@@ -34,9 +34,6 @@ assets:
   js_minify: true
   collections:
     jquery: system://assets/jquery/jquery-2.1.4.min.js
-#    gsap:
-#    - https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js
-#    - user://pages/custom-scripts/greg-gsap.js
 
 debugger:
   enabled: false

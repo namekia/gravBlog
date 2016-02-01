@@ -83,8 +83,11 @@ assets:
   js_pipeline: false
   js_minify: true
   enable_asset_timestamp: true
-  collections:
-    jquery: 'system://assets/jquery/jquery-2.1.4.min.js'
+collections:
+  jquery: 'system://assets/jquery/jquery-2.1.4.min.js'
+# gsap:
+#  - https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js
+#  - user://pages/custom-scripts/greg-gsap.js
 errors:
   display: true
   log: true
