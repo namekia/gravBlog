@@ -31,6 +31,7 @@
 
     {% block javascripts %}
      {% do assets.addJs('/system/assets/jquery/jquery-2.1.4.min.js', {'priority':101, 'loading':'async'}) %}
+     {% do assets.addJs('https://www.google.com/recaptcha/api.js', {'priority':100, 'loading':'async'}) %}
     {% endblock %}
     {{ assets.js() }}
 
