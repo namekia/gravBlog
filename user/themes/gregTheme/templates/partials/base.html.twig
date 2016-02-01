@@ -84,8 +84,8 @@
         {% do assets.addJs('theme://js/modernizr.custom.71422.js', {'priority':100, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/antimatter.js', {'priority':100, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/slidebars.min.js', {'priority':100, 'group':'bottom'}) %}
-        {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js', {'group':'bottom'}) %}
-        {% do assets.addJs('user://pages/custom-scripts/greg-gsap.js', {'group':'bottom'}) %}
+        {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js', {'priority':100, 'group':'bottom'}) %}
+        {% do assets.addJs('user://pages/custom-scripts/greg-gsap.js', {'priority':100, 'group':'bottom'}) %}
         {{ assets.js('bottom') }}
         <script>
         $(function () {
