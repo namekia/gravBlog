@@ -86,7 +86,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.1.4.min.js'
 errors:
-  display: false
+  display: true
   log: true
 debugger:
   enabled: true

@@ -32,10 +32,14 @@ assets:
   css_rewrite: true
   js_pipeline: false
   js_minify: true
+  collections:
+    jquery: system://assets/jquery/jquery-2.1.4.min.js
+#    gsap:
+#    - https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js
+#    - user://pages/custom-scripts/greg-gsap.js
 
 debugger:
   enabled: false
-  twig: true
   shutdown:
     close_connection: true
 
@@ -50,4 +54,3 @@ media:
   upload_limit: 800                           # Set maximum upload size in bytes (0 is unlimited)
   unsupported_inline_types: []              # Array of supported media types to try to display inline
   allowed_fallback_types: []                # Array of allowed media types of files found if accessed via Page route
-

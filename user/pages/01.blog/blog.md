@@ -10,11 +10,11 @@ sitemap:
 
 content:
     items:
-        '@page.descendants': /Sandbox
+        '@taxonomy.category': blog
     order:
         by: date
         dir: desc
-    limit: 1
+    limit: 2
     pagination: false
 
 feed:
