@@ -29,13 +29,13 @@ form:
           validate:
             required: true
 
-        - name: g-recaptcha-response
-          label: Captcha
-          type: captcha
-          recatpcha_site_key: 6Lc-DxcTAAAAABD2gn3bLCB8L_21DxYgbJ_-3c6J
-          recaptcha_not_validated: 'Captcha not valid!'
-          validate:
-            required: true
+#        - name: g-recaptcha-response
+#          label: Captcha
+#          type: captcha
+#          recatpcha_site_key: 6Lc-DxcTAAAAABD2gn3bLCB8L_21DxYgbJ_-3c6J
+#          recaptcha_not_validated: 'Captcha not valid!'
+#          validate:
+#            required: true
 
     buttons:
         - type: submit
@@ -43,8 +43,8 @@ form:
           classes: button
 
     process:
-        - captcha:
-              recatpcha_secret: 6Lc-DxcTAAAAAJLhP04rvPBw4L7eiDkHLA-P99h-
+#        - captcha:
+#              recatpcha_secret: 6Lc-DxcTAAAAAJLhP04rvPBw4L7eiDkHLA-P99h-
         - email:
             from: "{{ config.plugins.email.from }}"
             to:
