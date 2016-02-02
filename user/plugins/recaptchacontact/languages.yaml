@@ -33,7 +33,7 @@ en:
   RECAPTCHACONTACT:
     FORM_LEGEND: "Contact me"
     SUBJECT: "New contact from Grav site!"
-    RECIPIENT: "hello@example.com"
+    RECIPIENT: "test0@gChambers.com"
 
     FIELDS:
       NAME:
