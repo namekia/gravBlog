@@ -1,5 +1,6 @@
 ---
 title: Contact
+recaptchacontact: true
 form:
     name: my-nice-form
     fields:
