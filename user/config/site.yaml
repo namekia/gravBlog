@@ -12,3 +12,17 @@ redirects:
 routes:
     /something/else: /blog/focus-and-blur
     /another/one/(.*): /blog/$1
+
+# Copyright module from sora-article-blog-template
+# Copyright
+copyright:
+    text1: Copyright
+    year: 2015
+    url: http://sora-article-soratemplates.blogspot.in/
+    text2: Sora Article
+
+copyright2:
+    text1: ", Ported by"
+    url: http://getgrav.org/
+    text2: Grav Team
+
