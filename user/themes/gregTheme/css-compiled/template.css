@@ -779,6 +779,16 @@ h1 + h2 {
       margin-left: 60px;
       text-transform: none; }
 
+.alert {
+  padding: .5rem;
+  color: #99001a;
+  border: 1px solid #99001a;
+  border-radius: 4px;
+  background: #fbaf23;
+  margin-bottom: 1rem; }
+  .alert b {
+    color: #111111; }
+
 pre {
   padding: .7rem;
   background: #fbaf23; }

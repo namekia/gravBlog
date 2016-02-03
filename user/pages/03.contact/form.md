@@ -16,10 +16,27 @@ form:
         - name: email
           label: Email
           placeholder: Enter your email address
-          type: text
+          type: email
           validate:
-            rule: email
             required: true
+            rule: email
+            message: Please check your email address.
+
+
+        - name: checkboxes
+          type: checkboxes
+          label: What is your favorite ice cream flavor?
+          default: [option1: true, option2: false]
+          options:
+            option1: Chocolate
+            option2: Chunky Monkey
+
+        - name: instructions
+          type: display
+          size: large
+          label: Instructions
+          markdown: true
+          content: "This is a test of markdown **BOLD** and _italic_ format in a text/display field\n\nThis is a new paragraph. His urban salvage fixed my plastics past."
 
         - name: message
           label: Message
@@ -36,7 +53,7 @@ form:
           recaptcha_not_validated: 'Captcha not valid!'
           validate:
             required: true
-#         readonly: true
+            message: Please complete the captcha challenge.
 
     buttons:
         - type: submit
@@ -47,12 +64,8 @@ form:
         - captcha:
               recatpcha_secret: 6Lc-DxcTAAAAAJLhP04rvPBw4L7eiDkHLA-P99h-
         - email:
-#            from: "{{ config.plugins.email.from }}"
-             from:
-             - "{{ form.value.name|e }}"
-             - "{{ form.value.email }}"
-            to:
-              - "{{ config.plugins.email.from }}"
+            from: "{{ form.value.email }}"
+            to: "{{ config.plugins.email.to }}"
 #              - "{{ form.value.email }}"
             subject: "[Feedback] {{ form.value.name|e }}"
             body: "{% include 'forms/data.html.twig' %}"
