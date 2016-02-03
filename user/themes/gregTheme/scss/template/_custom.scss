@@ -105,6 +105,13 @@ h1 + h2 {
     color: $text-darken;
   }
 }
+// Move the spans apart so that they appear as individual units
+.checkboxes label:nth-child(n+2) {
+  margin-right: 2em;
+}
+.form-data[data-grav-field='checkboxes'] {
+  margin-bottom: .85rem;
+}
 // ++++++++++++++++++++!
 
 

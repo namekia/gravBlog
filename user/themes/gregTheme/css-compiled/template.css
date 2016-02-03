@@ -789,6 +789,12 @@ h1 + h2 {
   .alert b {
     color: #111111; }
 
+.checkboxes label:nth-child(n+2) {
+  margin-right: 2em; }
+
+.form-data[data-grav-field='checkboxes'] {
+  margin-bottom: .85rem; }
+
 pre {
   padding: .7rem;
   background: #fbaf23; }

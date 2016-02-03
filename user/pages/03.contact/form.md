@@ -23,20 +23,23 @@ form:
             message: Please check your email address.
 
 
-        - name: checkboxes
+        - name: check
           type: checkboxes
           label: What is your favorite ice cream flavor?
-          default: [option1: true, option2: false]
           options:
-            option1: Chocolate
-            option2: Chunky Monkey
+            chocolate: Chocolate
+            monkey: Chunky Monkey
+          default:[chocolate: true, monkey: true]
 
-        - name: instructions
-          type: display
-          size: large
-          label: Instructions
-          markdown: true
-          content: "This is a test of markdown **BOLD** and _italic_ format in a text/display field\n\nThis is a new paragraph. His urban salvage fixed my plastics past."
+        - name: date
+          type: date
+#          size: large
+          label: Date
+#          validate:
+#            min: 01/01/2016
+#          validate:
+#            max: 12/30/2017
+          autocomplete: on
 
         - name: message
           label: Message
