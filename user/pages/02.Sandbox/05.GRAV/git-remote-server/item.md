@@ -1,5 +1,5 @@
 ---
-title: GitHub Code Notes Remote Server
+title: GitHub Code Notes &mdash; Remote Server
 date: 11:30 01/06/2016
 author: Gregory Chambers
 banner: header-gitBash.png

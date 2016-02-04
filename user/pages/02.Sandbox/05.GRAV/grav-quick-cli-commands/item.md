@@ -7,9 +7,10 @@ taxonomy:
     tag: [git, cli]
 ---
 
-**Watch SCSS folder for changes to: `_custom.scss`**
+**Watch SCSS folder** for changes to: `_custom.scss`
 
-A _separate_ gitBash CLI needs to be opened from within the theme root directory *NOT the site root directory*.
+A _separate_ gitBash CLI needs to be opened from within the **theme root directory**,  NOT the site root directory.
+
 Watch scss folder for changes: <br>
 `$ scss --watch scss:css-compiled`
 
@@ -40,3 +41,5 @@ Pages Initializing
 
 install should be run with --symlink|--s to symlink first
 ```
+
+
