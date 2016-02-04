@@ -72,23 +72,19 @@ h1 + h2 {
     }
   }
 }
-// #header #logo {
-//   margin-top: 1rem;
-
-//   background: url('../images/gBug_round.svg') no-repeat;
-//   background-size: contain;
-// }
-// .scrolled#header #logo {
-//   margin-top: 0;
-// }
-// #header #logo h3 {
-//   margin-left: 90px;
-
-//   text-transform: none;
-// }
-// .scrolled#header #logo h3 {
-//   margin-left: 60px;
-// }
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Copyright in Footer
+// ++++++++++++++++++++
+.copyright-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 1rem;
+  text-align: left;
+}
 // ++++++++++++++++++++!
 
 // ++++++++++++++++++++
@@ -114,8 +110,11 @@ h1 + h2 {
 }
 // ++++++++++++++++++++!
 
-
-// Alter default handling of displayed code blocks. Change color background, padding and font color
+// ++++++++++++++++++++
+// Syntax Highlighting
+// Alter default handling of displayed code blocks.
+// Change color background, padding and font color
+// ++++++++++++++++++++
 pre {
   padding: .7rem;
 
@@ -124,6 +123,7 @@ pre {
     color: $text-darken;
   }
 }
+// ++++++++++++++++++++!
 // ++++++++++++++++++++
 // General-purpose utility classes -- primarily for use with
 // images within content areas.

@@ -779,15 +779,6 @@ h1 + h2 {
       margin-left: 60px;
       text-transform: none; }
 
-.copyright-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
-  margin-top: 1rem;
-  text-align: left; }
-
 .alert {
   padding: .5rem;
   color: #99001a;

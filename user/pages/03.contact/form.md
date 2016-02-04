@@ -29,17 +29,21 @@ form:
           options:
             chocolate: Chocolate
             monkey: Chunky Monkey
-          default:[chocolate: true, monkey: true]
+#          default:[chocolate: true, monkey: true]
 
-        - name: date
+        - name: d
           type: date
-#          size: large
+          size: large
           label: Date
 #          validate:
 #            min: 01/01/2016
 #          validate:
 #            max: 12/30/2017
-          autocomplete: on
+
+        - name: dt
+          type: datetime
+          size: large
+          label: Date Time
 
         - name: message
           label: Message

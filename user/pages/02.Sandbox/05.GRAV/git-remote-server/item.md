@@ -2,6 +2,7 @@
 title: GitHub Code Notes Remote Server
 date: 11:30 01/06/2016
 author: Gregory Chambers
+banner: header-gitBash.png
 taxonomy:
     category: blog
     tag: [git, cli]

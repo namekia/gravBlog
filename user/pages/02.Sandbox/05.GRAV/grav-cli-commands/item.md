@@ -1,7 +1,8 @@
 ---
-title: grav CLI commands with GitBash
+title: Official Grav CLI Cheatsheet
 date: 13:09 01/15/2016
 author: Gregory Chambers
+banner: header-gitBash.png
 taxonomy:
     category: blog
     tag: [git, cli]
@@ -10,7 +11,7 @@ taxonomy:
 **Issue**
 Currently unable to do a fresh install of a grav instance via the CLI. Will need to pose a question in the forum asking for explicit instructions on using CLI with Windows.
 
-[Official Grav Cheatsheet](http://learn.getgrav.org/advanced/grav-cli "Command line tutorial")
+[Grav Cheatsheet](http://learn.getgrav.org/advanced/grav-cli "Command line tutorial")
 
 All of the commands listed below are compatible with any operating system.
 

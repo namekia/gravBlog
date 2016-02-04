@@ -13,16 +13,19 @@ routes:
     /something/else: /blog/focus-and-blur
     /another/one/(.*): /blog/$1
 
-# Copyright module from sora-article-blog-template
-# Copyright
+# ++++++++++++++++++++
+# COPYRIGHT
+# module inspired by sora-article-blog-template
+# called in the footer area of /user/themes/gregTheme/templates/partials/base.html.twig
+# ++++++++++++++++++++
 copyright:
     text1: Copyright
-    year: 2015
-    url: http://sora-article-soratemplates.blogspot.in/
-    text2: Sora Article
+    # year: 2015
+    url: http://s1nga.com
+    text2: gregCompanyName
 
 copyright2:
-    text1: ", Ported by"
+    text1: "additional Attribution"
     url: http://getgrav.org/
     text2: Grav Team
-
+# ++++++++++++++++++++!
