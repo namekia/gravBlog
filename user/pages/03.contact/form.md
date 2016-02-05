@@ -31,7 +31,7 @@ form:
             monkey: Chunky Monkey
 #          default:[chocolate: true, monkey: true]
 
-        - name: d
+        - name: dt
           type: date
           size: large
           label: Date
@@ -40,7 +40,15 @@ form:
 #          validate:
 #            max: 12/30/2017
 
-        - name: dt
+        - name: file uploads
+          type: file
+          multiple: false
+          label: Upload an image
+          destination: '/user/data/my-nice-form/files'
+#          destination: '@self'
+          accept: image/*
+
+        - name: dtm
           type: datetime
           size: large
           label: Date Time

@@ -1,5 +1,7 @@
 {% extends "forms/default/data.html.twig" %}
 
+{# 2/5/2016 final version of code suggested by @flaviocopes to solve re-captcha display in output and incorrect display of selected checkboxes #}
+
 {% for field in form.fields %}
     {% block field %}
         {% if field.name!='g-recaptcha-response' %}
@@ -24,44 +26,6 @@
     {% endblock %}
 {% endfor %}
 
-{# {% extends "forms/default/data.html.twig" %}
-
-{% for field in form.fields %}
-{% block field %}
-    <div>
-        {% block field_label %}
-            <strong>{{ field.label }}</strong>
-        {% endblock %}:
-
-        {% block field_value %}
-            {% if field.type == 'checkboxes' %}
-                <ul>
-                {% for value in form.value(field.name) %}
-                    <li>{{ field.options[value] }}</li>
-                {% endfor %}
-                </ul>
-        {{ dump(field) }}
-            {% else %}
-                {{ string(form.value(field.name)|e)|nl2br }}
-            {% endif %}
-        {% endblock %}</div>
-
-        {% block field %}
-            {% if field.name!='g-recaptcha-response' %}
-            <div>{% block field_label %}<strong>{{ field.label }}</strong>{% endblock %}: {% block field_value %}{{ string(form.value(field.name)|e) }}{% endblock %}</div>
-            {% endif %}
-        {% endblock %}
-
-{% endblock %}
-{% endfor %} #}
-
-{# {% for field in form.fields %}
-{% block field %}
-    {% if field.name!='g-recaptcha-response' %}
-    <div>{% block field_label %}<strong>{{ field.label }}</strong>{% endblock %}: {% block field_value %}{{ string(form.value(field.name)|e) }}{% endblock %}</div>
-    {% endif %}
-{% endblock %}
-{% endfor %} #}
 
 
 

@@ -106,9 +106,15 @@ h1 + h2 {
 .checkboxes label:nth-child(n+2) {
   margin-right: 2em;
 }
-.form-data[data-grav-field='checkboxes'] {
+// .form-data[data-grav-field='checkboxes'],
+input[type="checkbox"],
+input[type="file"] {
   margin-bottom: .85rem;
 }
+input[type="date"] {
+  width: 12rem;
+}
+
 // ++++++++++++++++++++!
 
 // ++++++++++++++++++++
@@ -217,10 +223,10 @@ body {
     width: 500%;
     margin: 0;
     animation: 30s slidy infinite;
-  }
-  figure img {
-    float: left;
-    width: 20%;
+    img {
+      float: left;
+      width: 20%;
+    }
   }
 }
 // #slider figure img {
@@ -239,10 +245,9 @@ body {
 
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
-// Fix display of blog-section descripton
+// Fix display description text in banner on blog-section list-page
 // ++++++++++++++++++++
 .blog-header h3 {
   color: $white;
 }
-
 // ++++++++++++++++++++!

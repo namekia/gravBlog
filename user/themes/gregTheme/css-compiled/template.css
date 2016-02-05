@@ -801,8 +801,12 @@ h1 + h2 {
 .checkboxes label:nth-child(n+2) {
   margin-right: 2em; }
 
-.form-data[data-grav-field='checkboxes'] {
+input[type="checkbox"],
+input[type="file"] {
   margin-bottom: .85rem; }
+
+input[type="date"] {
+  width: 12rem; }
 
 pre {
   padding: .7rem;
@@ -871,9 +875,9 @@ body {
     width: 500%;
     margin: 0;
     animation: 30s slidy infinite; }
-  #slider figure img {
-    float: left;
-    width: 20%; }
+    #slider figure img {
+      float: left;
+      width: 20%; }
 
 .blog-header h3 {
   color: white; }
