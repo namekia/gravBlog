@@ -1,6 +1,32 @@
 {% extends "forms/default/data.html.twig" %}
 
 {% for field in form.fields %}
+    {% block field %}
+        {% if field.name!='g-recaptcha-response' %}
+            <div>
+                {% block field_label %}
+                <strong>{{ field.label }}</strong>
+                {% endblock %}:
+
+                {% block field_value %}
+                    {% if field.type == 'checkboxes' %}
+                        <ul>
+                            {% for value in form.value(field.name) %}
+                                <li>{{ field.options[value] }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        {{ string(form.value(field.name)|e)|nl2br }}
+                    {% endif %}
+                {% endblock %}
+            </div>
+        {% endif %}
+    {% endblock %}
+{% endfor %}
+
+{# {% extends "forms/default/data.html.twig" %}
+
+{% for field in form.fields %}
 {% block field %}
     <div>
         {% block field_label %}
@@ -19,8 +45,23 @@
                 {{ string(form.value(field.name)|e)|nl2br }}
             {% endif %}
         {% endblock %}</div>
+
+        {% block field %}
+            {% if field.name!='g-recaptcha-response' %}
+            <div>{% block field_label %}<strong>{{ field.label }}</strong>{% endblock %}: {% block field_value %}{{ string(form.value(field.name)|e) }}{% endblock %}</div>
+            {% endif %}
+        {% endblock %}
+
 {% endblock %}
-{% endfor %}
+{% endfor %} #}
+
+{# {% for field in form.fields %}
+{% block field %}
+    {% if field.name!='g-recaptcha-response' %}
+    <div>{% block field_label %}<strong>{{ field.label }}</strong>{% endblock %}: {% block field_value %}{{ string(form.value(field.name)|e) }}{% endblock %}</div>
+    {% endif %}
+{% endblock %}
+{% endfor %} #}
 
 
 
