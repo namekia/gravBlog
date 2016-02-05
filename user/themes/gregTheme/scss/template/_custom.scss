@@ -8,6 +8,7 @@ $logo-yello: hsla(39, 96%, 56%, 1);
 $text-darken: darken($core-text, 20);
 $header-gray: hsla(0, 0%, 70%, .75);
 $alert-red: hsla(350, 100%, 30%, 1);
+$white: hsla(360, 100%, 100%, 1);
 // ++++++++++++++++++++!
 
 
@@ -235,5 +236,13 @@ body {
 
 //   animation: 30s slidy infinite;
 // }
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Fix display of blog-section descripton
+// ++++++++++++++++++++
+.blog-header h3 {
+  color: $white;
+}
 
 // ++++++++++++++++++++!

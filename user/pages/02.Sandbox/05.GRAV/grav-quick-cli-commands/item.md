@@ -1,7 +1,8 @@
 ---
 title: Useful GRAV CLI commands
 author: Gregory Chambers
-banner: header-gitBash.png
+date: 01/18/2016 10:26am
+#banner: header-gitBash.png
 taxonomy:
     category: blog
     tag: [git, cli]

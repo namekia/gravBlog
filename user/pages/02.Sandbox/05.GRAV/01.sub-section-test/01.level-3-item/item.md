@@ -1,6 +1,6 @@
 ---
 title: Level-3 Item Under Grav Menu
-date: 15:51 01/12/2016
+date: 01/12/2016 01:51pm
 author: Gregory Chambers
 taxonomy:
     category: blog

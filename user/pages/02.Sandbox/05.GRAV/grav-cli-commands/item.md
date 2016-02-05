@@ -2,7 +2,7 @@
 title: Official Grav CLI Cheatsheet
 date: 13:09 01/15/2016
 author: Gregory Chambers
-banner: header-gitBash.png
+#banner: header-gitBash.png
 taxonomy:
     category: blog
     tag: [git, cli]

@@ -875,6 +875,9 @@ body {
     float: left;
     width: 20%; }
 
+.blog-header h3 {
+  color: white; }
+
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }

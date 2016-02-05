@@ -1,16 +1,16 @@
 ---
 title: Re-Sync With Production Server
-date: 16:09 02/04/2016
+date: 02/04/2016 04:09pm
 author: Gregory Chambers
-header_image: /images/header-gitBash02.png
+#_header: /images/header-gitBash02.png
 taxonomy:
     category: blog
     tag: [git, cli]
 ---
 
-Very often the production website gets out-of-sync with the Github repository. This will typically happen during early stages of site development when files and folders are moved fro one directory to the next as the site is being optimized. Changing folder location occurs quite a bit as the main menu is being built -- and later modified or updated.
+Often the production website gets out-of-sync with the Github repository (and dev site). This will typically happen during early stages of site development when files and folders are moved from one directory to the next as the site is being optimized. Changing folder location occurs quite a bit as the main menu is being built, modified or updated. Sync issues could also occur after a grav update via Admin Control Panel.
 
-Sync issues could also occur after a grav update via Admin Control Panel.
+![Github Illus v.2](/images/header-gitBash02.png)
 
 ===
 
