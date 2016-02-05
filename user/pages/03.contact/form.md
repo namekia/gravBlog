@@ -44,8 +44,8 @@ form:
           type: file
           multiple: false
           label: Upload an image
-          destination: '/user/data/my-nice-form/files'
-#          destination: '@self'
+#          destination: '/user/data/my-nice-form/files'
+          destination: '@self'
           accept: image/*
 
         - name: dtm
