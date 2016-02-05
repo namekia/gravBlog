@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 {/assets}
 
-<div class="circ"> </div>
+<div class="circ">.</div>
 <button name="button" class="button" id="btn">PLAY</button>
 
 

@@ -20,7 +20,10 @@ feed:
     description: Sample Blog Description
     limit: 10
 
-pagination: true
+#pagination: true
+
+assets:
+  enabled: true
 ---
 
 ### Movement and Interaction Notes
