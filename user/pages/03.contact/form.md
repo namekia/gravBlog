@@ -42,13 +42,13 @@ form:
 
         - name: file uploads
           type: file
-          multiple: true
-          label: Upload an image (more than one is OK)
+          multiple: false
+          label: Upload an image
 #          destination: '/user/data/my-nice-form/files'
           destination: '@self'
           accept: image/*
 
-        - name: dtm
+        - name: datetime
           type: datetime
           size: large
           label: Date Time
