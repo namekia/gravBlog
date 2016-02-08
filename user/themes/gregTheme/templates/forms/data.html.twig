@@ -21,6 +21,19 @@
                         {{ string(form.value(field.name)|e)|nl2br }}
                     {% endif %}
                 {% endblock %}
+
+              {#   {% block field_value %}
+                    {% if field.type == 'file' %}
+                        <ul>
+                            {% for value in form.value(field.name) %}
+                                <li>{{ field.options[value] }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        {{ string(form.value(field.name)|e)|nl2br }}
+                    {% endif %}
+                {% endblock %} #}
+
             </div>
         {% endif %}
     {% endblock %}
