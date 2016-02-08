@@ -42,8 +42,8 @@ form:
 
         - name: file uploads
           type: file
-          multiple: false
-          label: Upload an image
+          multiple: true
+          label: Upload an image (more than one is OK)
 #          destination: '/user/data/my-nice-form/files'
           destination: '@self'
           accept: image/*
