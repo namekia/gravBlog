@@ -251,3 +251,135 @@ body {
   color: $white;
 }
 // ++++++++++++++++++++!
+
+// ++++++++++++++++++++
+// Animation clip which re-creates the loading-screen  sequence of MGS5
+// ++++++++++++++++++++
+.main {
+  display: flex;
+
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.intro {
+  // font-family: 'Roboto', sans-serif;
+  display: flex;
+  width: 80%;
+  margin: auto;
+
+  flex-flow: row wrap;
+}
+.intro p:first-child {
+  font-size: 1.25em;
+  margin-top: 2em;
+}
+.btn-wrap {
+  width: 80%;
+  margin: auto;
+
+  align-self: flex-start;
+  flex: 0 1 auto;
+}
+.circ-wrap {
+  position: relative;
+  visibility: hidden;
+  width: 470px;
+  height: 320px;
+  margin-top: 90px;
+
+  flex: 0 1 auto;
+}
+.txt-loading {
+  font-size: 170%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+.txt-numbers {
+  font-size: 270%;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  display: block;
+  width: auto;
+  text-align: right;
+}
+.txt-chckpnt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.5em;
+  font-weight: 900;
+  position: absolute;
+  top: 230px;
+  left: 10px;
+}
+.circ-arcs {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 239px;
+  height: 239px;
+  background: url('../../../../user/pages/images/circArcs.png') no-repeat;
+}
+
+.circ-gradient {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 239px;
+  height: 239px;
+  background: url('../../../../user/pages/images/circGradient.png') no-repeat;
+}
+.matrix-wrap {
+  position: relative;
+  display: flex;
+  width: 130px;
+  height: 140px;
+  margin-top: 90px;
+
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.matrix-sqr {
+  width: 60px;
+  height: 60px;
+  background-color: #4D4D4D;
+  background-color: hsl(0, 0%, 30%);
+}
+.sqr01, .sqr02, .sqr03, .sqr04 {
+  visibility: hidden;
+}
+button[name='replay'] {
+  // font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 2em;
+  visibility: hidden;
+  padding: 0 12px;
+  cursor: pointer;
+  color: #FBAF23;
+  color: hsl(39, 96%, 56%);
+  border-radius: 12px;
+  background-color: #333333;
+  background-color: hsl(0, 0%, 20%);
+}
+button[name='replay']:hover {
+  color: #333333;
+  color: hsl(0, 0%, 20%);
+  background-color: #FBAF23;
+  background-color: hsl(39, 96%, 56%);
+}
+@media (max-width: 600px) {
+  .matrix-wrap {
+    margin-top: 12px;
+  }
+  .circ-wrap {
+    margin-top: 0;
+  }
+  button[name='replay'] {
+    font-size: 1em;
+    width: 5em;
+    border-radius: 6px;
+  }
+}
+// ++++++++++++++++++++!
