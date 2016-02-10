@@ -121,14 +121,15 @@ input[type="date"] {
 // Syntax Highlighting
 // Alter default handling of displayed code blocks.
 // Change color background, padding and font color
+// NOTE; THIS OVER-RIDE IS NO LONGER NECESSAY SINCE I STATRED USING THE HIGHLIGHT PLUGIN WITH THE CODEPEN-EMBED THEME
 // ++++++++++++++++++++
 pre {
-  padding: .7rem;
+  padding: 0;
 
-  background: $logo-yello;
-  code {
-    color: $text-darken;
-  }
+  // background: $logo-yello;
+  // code {
+  //   color: $text-darken;
+  // }
 }
 // ++++++++++++++++++++!
 // ++++++++++++++++++++

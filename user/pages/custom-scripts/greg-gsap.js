@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 // MDN: The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets and images to finish loading
 // document.addEventListener("DOMContentLoaded", function(event) {
-             // Self-Executing Anonymous Function
+// Self-Executing Anonymous Function
 (function() {
 
     var trgt = document.querySelectorAll('.circ-rndm');
