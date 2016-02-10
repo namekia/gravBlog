@@ -153,3 +153,34 @@ document.addEventListener("DOMContentLoaded", function(event) {
             autoAlpha: 0
         }, 'label2-=1');
 });
+
+// MDN: The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets and images to finish loading
+// document.addEventListener("DOMContentLoaded", function(event) {
+             // Self-Executing Anonymous Function
+(function() {
+
+    var trgt = document.querySelectorAll('.circ-rndm');
+
+    function rollOver() {
+        TweenMax.to(this, 0.5, {
+            scale: 1.2,
+            backgroundColor: 'hsla(' + Math.random() * 255 + ', 90%, 60%, 1)'
+                // backgroundColor: 'hsla(59, 41%, 52%, 1)'
+        });
+    }
+
+    function rollOut() {
+        TweenMax.to(this, 0.3, {
+            backgroundColor: 'hsla(' + Math.random() * 255 + ', 90%, 60%, 1)',
+            // backgroundColor: 'hsla(459, 41%, 52%, 1)',
+            scale: 1
+        });
+    }
+
+    for (var i = 0; i < trgt.length; i++) {
+        trgt[i].addEventListener('mouseover', rollOver, false);
+        trgt[i].addEventListener('mouseout', rollOut, false);
+    }
+
+})();
+// });

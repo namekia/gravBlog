@@ -999,6 +999,22 @@ button[name='replay']:hover {
     font-size: 1em;
     width: 5em;
     border-radius: 6px; } }
+.flex-wrap-circ-rndm {
+  display: flex;
+  margin: auto;
+  background-color: rgba(179, 179, 179, 0.75);
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer; }
+
+.circ-rndm {
+  margin: 12px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #111111; }
+
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }

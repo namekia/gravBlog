@@ -383,3 +383,29 @@ button[name='replay']:hover {
   }
 }
 // ++++++++++++++++++++!
+
+// ++++++++++++++++++++
+// Random Color Effect on Rollover
+// ++++++++++++++++++++
+.flex-wrap-circ-rndm {
+  display: flex;
+  margin: auto;
+  // width: 60%;
+  // *height: 100vh;
+  background-color: $header-gray;
+  // background-color: hsla(0, 0%, 80%, 1);
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+
+  cursor: pointer;
+}
+.circ-rndm {
+  margin: 12px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: $text-darken;
+  // background-color: hsla(0, 0%, 60%, 1);
+}
+// ++++++++++++++++++++!

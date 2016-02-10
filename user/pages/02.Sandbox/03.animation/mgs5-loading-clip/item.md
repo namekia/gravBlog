@@ -1,6 +1,7 @@
 ---
 title: MGS5 Loading Animation
 date: 02/09/2016 01:51pm
+#banner: /images/cameraGirl.jpg
 author: Gregory Chambers
 taxonomy:
     category: blog
