@@ -1,8 +1,11 @@
 ---
 title: Home
-blog_url: blog
-banner: playground1200.jpg
+menu: Home
+blog_url: home
+banner: cubanVan.jpg
 body_classes: header-image fullwidth
+
+template: blog
 
 sitemap:
     changefreq: monthly

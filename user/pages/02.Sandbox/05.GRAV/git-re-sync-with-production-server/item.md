@@ -2,32 +2,31 @@
 title: Re-Sync With Production Server
 date: 02/04/2016 04:09pm
 author: Gregory Chambers
-#_header: /images/header-gitBash02.png
+header_image: false
+#header_image_file: /user/pages/images/yellowRaceCar.jpg
+#header_image_file: page->find('/images')->media['yellowRaceCar.jpg']
 taxonomy:
-    category: blog
-    tag: [git, cli]
+  category: blog
+  tag: [git, cli]
 ---
 
 Often the production website gets out-of-sync with the Github repository (and dev site). This will typically happen during early stages of site development when files and folders are moved from one directory to the next as the site is being optimized. Changing folder location occurs quite a bit as the main menu is being built, modified or updated. Sync issues could also occur after a grav update via Admin Control Panel.
 
-![Github Illus v.2](/images/header-gitBash02.png)
-
+![yellow race car](cameraGirl.jpg?cropResize=200x200){.float-right}
 ===
 
 The solution to this problem may seem drastic... blow away all the files currently on production and replace them with those from Github repository. This is not as daunting as it would seem on first suggestion.
 
-The basic steps are:
-1. open git-bash in the root of the site development folder
-1. open a ssh connection to production server
+**The basic steps are:**
+1. open git-bash terminal in the root of the site development folder
+1. use that terminal open a ssh connection to production server
 1. bundle ALL the files and folders into a _junk_ directory such as `ZZZdelete`
 1. move the "junk" folder out of the site root
 1. use git-bash to upload files from repository up to production
 
-Here are the specifics.
+**Here are the specifics:**
 
-In git Bash:
-
-`$ ssh s1ngaco@s1nga.com`
+In git Bash: &emsp; `$ ssh s1ngaco@s1nga.com`
 
 >>>>> Look up password for s1nga cPanel in LastPass
 
