@@ -9,6 +9,7 @@ taxonomy:
   category: blog
   tag: [git, cli]
 ---
+![github illustration](/images/header-gitBash02.png)
 
 Often the production website gets out-of-sync with the Github repository (and dev site). This will typically happen during early stages of site development when files and folders are moved from one directory to the next as the site is being optimized. Changing folder location occurs quite a bit as the main menu is being built, modified or updated. Sync issues could also occur after a grav update via Admin Control Panel.
 

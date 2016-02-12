@@ -3,7 +3,7 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
-		{% set blog_image = page.media[header.banner].brightness(-50) %}
+		{% set blog_image = page.media[header.banner].brightness(-30) %}
 
 		{% if blog_image %}
 		<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
