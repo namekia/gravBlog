@@ -13,8 +13,10 @@
 	// scroll based changes
 	&.scrolled {
 		height: $header-height - 2rem;
-		background-color: rgba(255,255,255,0.90) !important;
-		box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15) !important;
+    // background-color: rgba(255,255,255,0.90) !important;
+		background-color: rgba(255,255,255,0.90);
+    // box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15) !important;
+		box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15);
 
 		#logo h3 {
 			color: $core-text !important;
@@ -24,7 +26,8 @@
 			color: $core-text !important;
 		}
 		#navbar a {
-			color: $core-accent !important;
+      // color: $core-accent !important;
+			color: $core-accent;
             &:hover {
                 color: darken($core-accent, 20%) !important;
             }
@@ -65,7 +68,7 @@
 			&.navigation {
 				@extend %vertical-align;
 				display: inline-block;
-				
+
 				float: right;
 				li {
 					float: left;
@@ -119,7 +122,7 @@
 					ul ul {
 						left: 100%;
 						top: 0;
-					}	
+					}
 
 
 					&:hover {
@@ -156,7 +159,7 @@
 				@include breakpoint(desktop-only) {
 					display: none;
 				}
-			}	
+			}
 		}
 
 		.panel-activation {
