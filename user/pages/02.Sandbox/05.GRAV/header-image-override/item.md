@@ -8,7 +8,7 @@ taxonomy:
   tag: [grav, images]
 ---
 
-![sandbox fun](/images/playground1200.jpg)
+![sandbox fun](/images/playground1600.jpg)
 
 OK, I've found some solutions to the graphic design scenarios that I was trying to overcome. The difficulties occurred specifically in the Grav Blog Site template. Other templates may or may-not exhibit the same behavior.
 

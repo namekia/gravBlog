@@ -1,6 +1,7 @@
 absolute_urls: false
 param_sep: ':'
 wrapped_site: false
+reverse_proxy_setup: false
 languages:
   include_default_lang: true
   translations: true
@@ -9,7 +10,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /blog
+  alias: /home
   hide_in_urls: false
 pages:
   theme: gregTheme
@@ -83,11 +84,8 @@ assets:
   js_pipeline: false
   js_minify: true
   enable_asset_timestamp: true
-collections:
-  jquery: 'system://assets/jquery/jquery-2.1.4.min.js'
-# gsap:
-#  - https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js
-#  - user://pages/custom-scripts/greg-gsap.js
+  collections:
+    jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
   display: true
   log: true
@@ -112,3 +110,5 @@ session:
   httponly: true
 markdown:
   extra: true
+collections:
+  jquery: 'system://assets/jquery/jquery-2.1.4.min.js'
