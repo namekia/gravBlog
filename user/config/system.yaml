@@ -10,7 +10,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /Home
+  alias: /home
   hide_in_urls: false
 pages:
   theme: gregthemetwo
@@ -81,13 +81,13 @@ assets:
   css_minify: true
   css_minify_windows: false
   css_rewrite: true
-  js_pipeline: false
+  js_pipeline: true
   js_minify: true
   enable_asset_timestamp: false
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: true
+  display: false
   log: true
 debugger:
   enabled: false

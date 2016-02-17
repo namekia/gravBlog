@@ -1,7 +1,6 @@
 // Your custom SCSS should be written here...
 // ++++++++++++++++++++
 // Custom color variables for this site (specifically, this page)
-// Universal links color
 // Core file: /user/themes/antimatter/scss/configuration/template/_colors.scss
 // $core-accent: hsla(23, 88%, 43%, 1); ORANGE!
 // ++++++++++++++++++++
@@ -10,10 +9,11 @@ $text-darken: darken($core-text, 20);
 $header-gray: hsla(0, 0%, 70%, .75);
 $alert-red: hsla(350, 100%, 30%, 1);
 $white: hsla(360, 100%, 100%, 1);
+$accent-orange: hsla(23, 88%, 43%, 1);
 // ++++++++++++++++++++!
 
 // ++++++++++++++++++++
-// These two were supplied out of the box. Helps control the removal of grav-lightslider menu
+// These two were supplied out of the box. Helps control the removal of grav-lightslider gallery
 .grav-lightslider {
   .lSSlideOuter {
     .lSPager.lSpg {
@@ -29,22 +29,7 @@ $white: hsla(360, 100%, 100%, 1);
 }
 
 // ++++++++++++++++++++!
-// ++++++++++++++++++++
-// Over-ride default Antimatter behavior of full-browser-width
-#sb-site,
-.sb-site-container,
-.sb-slidebar,
-body,
-html {
-  max-width: 1200px;
-  margin: 0 auto !important;
-}
 
-#header #navbar {
-  max-width: 1000px;
-}
-
-// ++++++++++++++++++++!
 // ++++++++++++++++++++
 // General -- improve the handling of subheads. Note specific over-ride for the home page banner
 h1,
@@ -55,20 +40,28 @@ h5,
 h6 {
   line-height: 2.3rem;
 }
-
-//Title page -- add extra room above suhbead (H2) directly below main site title (H1)
-// Uses technique of "adjacent sibling" combinator to affect the H2 directly following H1
+// "adjacent sibling" combinator affects the H2 directly following H1
+// add extra room above suhbead (H2) directly below main site title (H1)
 h1 + h2 {
   margin-top: 1rem;
 }
-
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
+// Over-ride default Antimatter behavior of full-browser-width
+#sb-site,
+.sb-site-container,
+.sb-slidebar,
+body,
+html {
+  max-width: 1200px;
+  margin: 0 auto !important;
+}
 // Darkens the background color of the header bar after the page has been scrolled. Default color was white.
 // The styles below are modifications of core to position and color the header and logo area
 #header {
   background-color: $header-gray;
   box-shadow: 0 .05rem 1rem $header-gray;
+  // left: 0;
   #logo {
     margin-top: 1rem;
 
@@ -79,22 +72,16 @@ h1 + h2 {
       text-transform: none;
     }
   }
-  // .scrolled {
-  //   background-color: $header-gray;
-  //   width: 100%;
-  //   #logo {
-  //     margin-top: 0;
-  //   }
-  //   h3 {
-  //     margin-left: 60px;
-  //     text-transform: none;
-  //   }
-  // }
+  #navbar {
+    max-width: 1000px;
+  }
 }
 
 .scrolled#header {
+  // left: 0;
+  max-width: 1200px;
+
   background-color: $header-gray;
-  left: 0;
   #logo {
     margin-top: 0;
     h3 {
@@ -102,13 +89,12 @@ h1 + h2 {
       text-transform: none;
     }
   }
+  #navbar a {
+    color: $accent-orange;
+  }
 }
-
-#header.scrolled #navbar a {
-  color: $white;
-}
-
 // ++++++++++++++++++++!
+
 // ++++++++++++++++++++
 // Copyright in Footer
 // ++++++++++++++++++++
@@ -122,8 +108,8 @@ h1 + h2 {
   justify-content: space-between;
   align-content: center;
 }
-
 // ++++++++++++++++++++!
+
 // ++++++++++++++++++++
 // FORMS
 // ++++++++++++++++++++
@@ -154,7 +140,6 @@ input[type='file'] {
 input[type='date'] {
   width: 12rem;
 }
-
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
 // Syntax Highlighting
