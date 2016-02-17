@@ -1,0 +1,4 @@
+enabled: true
+route: /zrandom
+filters:
+  category: blog

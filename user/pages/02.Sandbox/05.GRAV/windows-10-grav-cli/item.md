@@ -6,11 +6,15 @@ author: Gregory Chambers
 taxonomy:
   category: blog
   tag: [grav, cli]
+#minicode:
+#  enabled: true
 ---
 
 ![Github illustration](/images/header-gitBash02@3x.png)
 
 Admittedly, I'm a newbie at CLI but I did get Grav CLI ALMOST working on Windows 10. Over many days I was able to muddle through. I say almost as there is seemingly one remaining sticking point: after “bin/grav new-project /C/MAMP/htdocs/my-new-project” I am unable to complete the process by installing the dependencies. However, I'll leave that issue for another forum question.For others like me, here are the steps I finally came up with:
+
+{{ 'hello.html' | minicode }}
 
 **First Steps:**
 
