@@ -5,7 +5,7 @@ author: Gregory Chambers
 header_image: false
 taxonomy:
   category: blog
-  tag: [grav, images]
+  tag: [grav, images, graphics]
 ---
 
 ![sandbox fun](/images/playground1600.jpg)

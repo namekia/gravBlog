@@ -1,7 +1,7 @@
 ---
 title: MGS5 Loading Animation
 date: 02/09/2016 01:51pm
-#banner: /images/cameraGirl.jpg
+header_image: /images/cameraGirl.jpg
 author: Gregory Chambers
 taxonomy:
     category: blog
@@ -28,9 +28,9 @@ This little animation sequence was inspired by the "saving" interface animations
 
 </div>
 
-<div class="btn-wrap">
-  <button type="button" name="replay" id="replay">Re-Play</button>
-</div>
+<!-- <div class="btn-wrap"> -->
+ <button type="button" name="replay" id="replay" class="button">Re-Play</button>
+<!-- </div> -->
 
-I've sat through this <i>MSG5</i> user-interface device many times througout my hours of game-play. The complex set of movements always intrigued me. Consequently, I set a challange for myself &mdash; replicate this sequence on the web using HTML, CSS and JavaScript.
+I've sat through this <i>MSG5</i> user-interface device many times throughout my hours of game-play. The complex set of movements always intrigued me. Consequently, I set a challenge for myself &mdash; replicate this sequence on the web using HTML, CSS and JavaScript.
 This is the result.

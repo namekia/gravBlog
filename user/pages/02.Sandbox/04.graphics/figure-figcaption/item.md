@@ -7,32 +7,21 @@ taxonomy:
   tag: [graphics, html]
 ---
 
+<figure markdown="1" class="float-right">
+![a race car](yellowRaceCar.jpg)
+<figcaption>Lucky sense cares her chain without news including cheeses. Nimbly, grin knows your fedora below mothers since stones.</figcaption>
+</figure>
+
 **Photo captions are hard!** Best case scenario would be for someone to write a shortcode plugin for the html `figure` element.
 
 However there is a technique we can use today. It's a bit convoluted, but workable. The basic idea is to combine the column classes provided by `pure-0.5.0`, the html `figure` element and markdown-in-html. What could possibly go wrong?
 
-```
-<!-- Figure with figcaption -->
+``` html
 <figure markdown="1" class="float-right">
-  ![a race car](yellowRaceCar.jpg "This is an image caption")
-  <figcaption>Lucky sense cares her chain without news including cheeses. Nimbly, grin knows your fedora below mothers since stones.</figcaption>
+![a race car](yellowRaceCar.jpg "This is an image caption")
+<figcaption>Lucky sense cares her chain without news including cheeses. Nimbly, grin knows your fedora below mothers since stones.</figcaption>
 </figure>
 ```
-
-
-<!-- Figure with figcaption -->
-<figure markdown="1" class="float-right">
-  ![a race car](yellowRaceCar.jpg)
-  <figcaption>Lucky sense cares her chain without news including cheeses. Nimbly, grin knows your fedora below mothers since stones.</figcaption>
-</figure>
-
-
-
-<style>
-
-
-</style>
-Your seed ruled our phone's crescent fedora, indeed. In the future, my art of claw loves mustache up time. Mainly, the forest refines his insect of fathers since shoes. Their narwhal's beard refined her chocolate's good liquid eagerly, very focal. The trunk saved your dizzy bridge, really. His dilemma programmed her sight's support.
 
 Past refers to their creative powder among wires. My science's bill volunteered the funk's warm boss sanely. Since then, mail recalls your grin behind parents. Once more, balance serves Park beside Chicago. Leather comment pulls his accessory by views below tins. Her mouse's Cosby forged their height, exactly. Quickly, a head of insect smashes my content.
 

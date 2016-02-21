@@ -743,12 +743,6 @@ ul.pagination {
 .simplesearch hr {
   border-bottom: 1px solid #eee; }
 
-.grav-lightslider .lSSlideOuter .lSPager.lSpg > li a {
-  z-index: 1; }
-
-#body > script:first-child + .grav-lightslider {
-  margin-top: -3rem; }
-
 h1,
 h2,
 h3,
@@ -991,36 +985,12 @@ figure {
 .sqr04 {
   visibility: hidden; }
 
-button[name='replay'] {
-  font-size: 1.5em;
-  font-weight: 400;
-  line-height: 2em;
-  visibility: hidden;
-  padding: 0 12px;
-  cursor: pointer;
-  color: #FBAF23;
-  color: #fbaf23;
-  border-radius: 12px;
-  background-color: #333333;
-  background-color: #333333; }
-
-button[name='replay']:hover {
-  color: #333333;
-  color: #333333;
-  background-color: #FBAF23;
-  background-color: #fbaf23; }
-
 @media (max-width: 600px) {
   .matrix-wrap {
     margin-top: 12px; }
 
   .circ-wrap {
-    margin-top: 0; }
-
-  button[name='replay'] {
-    font-size: 1em;
-    width: 5em;
-    border-radius: 6px; } }
+    margin-top: 0; } }
 .flex-wrap-circ-rndm {
   display: flex;
   margin: auto;
@@ -1036,6 +1006,12 @@ button[name='replay']:hover {
   margin: 12px;
   border-radius: 50%;
   background-color: #111111; }
+
+.grav-lightslider .lSSlideOuter .lSPager.lSpg > li a {
+  z-index: 1; }
+
+#body > script:first-child + .grav-lightslider {
+  margin-top: -3rem; }
 
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);

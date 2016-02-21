@@ -12,23 +12,7 @@ $white: hsla(360, 100%, 100%, 1);
 $accent-orange: hsla(23, 88%, 43%, 1);
 // ++++++++++++++++++++!
 
-// ++++++++++++++++++++
-// These two were supplied out of the box. Helps control the removal of grav-lightslider gallery
-.grav-lightslider {
-  .lSSlideOuter {
-    .lSPager.lSpg {
-      > li a {
-        z-index: 1;
-      }
-    }
-  }
-}
 
-#body > script:first-child + .grav-lightslider {
-  margin-top: -3rem;
-}
-
-// ++++++++++++++++++++!
 
 // ++++++++++++++++++++
 // General -- improve the handling of subheads. Note specific over-ride for the home page banner
@@ -411,28 +395,28 @@ figure {
   visibility: hidden;
 }
 
-button[name='replay'] {
-  // font-family: 'Oswald', sans-serif;
-  font-size: 1.5em;
-  font-weight: 400;
-  line-height: 2em;
-  visibility: hidden;
-  padding: 0 12px;
-  cursor: pointer;
+// button[name='replay'] {
+//   // font-family: 'Oswald', sans-serif;
+//   font-size: 1.5em;
+//   font-weight: 400;
+//   line-height: 2em;
+//   visibility: hidden;
+//   padding: 0 12px;
+//   cursor: pointer;
 
-  color: #FBAF23;
-  color: hsl(39, 96%, 56%);
-  border-radius: 12px;
-  background-color: #333333;
-  background-color: hsl(0, 0%, 20%);
-}
+//   color: #FBAF23;
+//   color: hsl(39, 96%, 56%);
+//   border-radius: 12px;
+//   background-color: #333333;
+//   background-color: hsl(0, 0%, 20%);
+// }
 
-button[name='replay']:hover {
-  color: #333333;
-  color: hsl(0, 0%, 20%);
-  background-color: #FBAF23;
-  background-color: hsl(39, 96%, 56%);
-}
+// button[name='replay']:hover {
+//   color: #333333;
+//   color: hsl(0, 0%, 20%);
+//   background-color: #FBAF23;
+//   background-color: hsl(39, 96%, 56%);
+// }
 
 @media (max-width: 600px) {
   .matrix-wrap {
@@ -441,13 +425,14 @@ button[name='replay']:hover {
   .circ-wrap {
     margin-top: 0;
   }
-  button[name='replay'] {
-    font-size: 1em;
-    width: 5em;
-
-    border-radius: 6px;
-  }
 }
+//   button[name='replay'] {
+//     font-size: 1em;
+//     width: 5em;
+
+//     border-radius: 6px;
+//   }
+// }
 
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
@@ -478,4 +463,22 @@ button[name='replay']:hover {
   // background-color: hsla(0, 0%, 60%, 1);
 }
 
+// ++++++++++++++++++++!
+
+
+// ++++++++++++++++++++
+// These two were supplied out of the box. Helps control the display of grav-lightslider gallery
+.grav-lightslider {
+  .lSSlideOuter {
+    .lSPager.lSpg {
+      > li a {
+        z-index: 1;
+      }
+    }
+  }
+}
+
+#body > script:first-child + .grav-lightslider {
+  margin-top: -3rem;
+}
 // ++++++++++++++++++++!

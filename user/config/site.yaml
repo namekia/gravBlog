@@ -7,11 +7,28 @@ blog:
 metadata:
     description: 'Sandbox site dedicated to understanding of and practicing with GRAVcms'
 taxonomies: [category,tag,month]
+
+summary:
+  enabled: true                             # enable or disable summary of page
+  format: short                             # long = summary delimiter will be ignored; short = use the first occurrence of delimiter or size
+  size: 900                                 # Maximum length of summary (characters)
+  delimiter: ===                            # The summary delimiter
+
+
 redirects:
-    /changelog: /blog/the-urban-jungle
+#  /redirect-test: /                         # Redirect test goes to home page
+#  /old/(.*): /new/$1                        # Would redirect /old/my-page to /new/my-page
+
 routes:
-    /something/else: /blog/focus-and-blur
-    /another/one/(.*): /blog/$1
+#  /something/else: '/blog/sample-3'         # Alias for /blog/sample-3
+#  /new/(.*): '/blog/$1'                     # Regex any /new/my-page URL to /blog/my-page Route
+
+#menu:                                      # Sample Menu Example
+#    - text: Source
+#      icon: github
+#      url: https://github.com/getgrav/grav
+#    - icon: twitter
+#      url: http://twitter.com/getgrav
 
 # ++++++++++++++++++++
 # COPYRIGHT module inspired by sora-article-blog-template
@@ -23,8 +40,8 @@ copyright:
     url: http://s1nga.com
     text2: gregCompanyName
 
-copyright2:
-    text1: "additional Attribution"
-    url: http://getgrav.org/
-    text2: Grav Team
+# copyright2:
+#     text1: "additional Attribution"
+#     url: http://getgrav.org/
+#     text2: Grav Team
 # ++++++++++++++++++++!
