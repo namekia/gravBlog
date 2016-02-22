@@ -6,8 +6,9 @@ author: Gregory Chambers
 taxonomy:
   category: blog
   tag: [grav, cli]
-#minicode:
-#  enabled: true
+
+minicode:
+ enabled: true
 ---
 
 ![Github illustration](/images/header-gitBash02@3x.png)
