@@ -159,15 +159,28 @@ pre {
 // Figures with captions. Unfortunately, they are hard-coded to 1/3 column width.
 // Specifying a width allows the use of float-left and float-right.
 // ++++++++++++++++++++
-figure {
+.fig-wrap {
+  // width: 33%;
+  // margin: 0;
+  // padding: 0;
+  // float: right;
+  // background: lighten($logo-yello, 30);
+}
+.wdth-1-3 {
   width: 33%;
-  margin: 0;
-
   background: lighten($logo-yello, 30);
+}
+figure {
   p {
     font-size: 1.6em;
     margin: 0;
     padding: 0;
+  }
+  cite {
+    font-size: .7rem;
+    font-style: italic;
+    line-height: 0;
+    margin-bottom: 1rem;
   }
   figcaption {
     font-size: .9rem;
@@ -176,6 +189,28 @@ figure {
     padding: 0 1rem 1rem;
   }
 }
+
+// .fig-wrapper-1-3-r {
+//   width: 33%;
+//   margin: 0;
+//   float: right;
+// }
+// figure {
+//   background: lighten($logo-yello, 30);
+//   cite {
+//     font-size: .7rem;
+//     font-style: italic;
+//     line-height: 1rem;
+//     margin-bottom: 1rem;
+//     // text-decoration: none;
+//   }
+//   figcaption {
+//     font-size: .9rem;
+//     line-height: 1.2rem;
+//     margin: 0;
+//     padding: 0 1rem 1rem;
+//   }
+// }
 
 // ++++++++++++++++++++!
 // ++++++++++++++++++++

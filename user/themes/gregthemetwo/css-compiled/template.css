@@ -826,19 +826,24 @@ pre {
   float: left;
   margin-right: 1.5rem; }
 
-figure {
+.wdth-1-3 {
   width: 33%;
-  margin: 0;
   background: #fee6b9; }
-  figure p {
-    font-size: 1.6em;
-    margin: 0;
-    padding: 0; }
-  figure figcaption {
-    font-size: .9rem;
-    line-height: 1.2rem;
-    margin: 0;
-    padding: 0 1rem 1rem; }
+
+figure p {
+  font-size: 1.6em;
+  margin: 0;
+  padding: 0; }
+figure cite {
+  font-size: .7rem;
+  font-style: italic;
+  line-height: 0;
+  margin-bottom: 1rem; }
+figure figcaption {
+  font-size: .9rem;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 0 1rem 1rem; }
 
 .simplegallery li {
   display: flex;
