@@ -26,13 +26,11 @@ Custom classes like `float-right` and `float-left` can be added to extend the us
 
 >>>>>Note: if a `float` is used, `clearfix` will need to be added to the parent element.
 
+===
+
 The width of the figure is set with the class `fig-wrapper-1-3`. This is hard-coded in `_custom.scss` with a 33% width.
 
-Past refers to their creative powder among wires. My science's bill volunteered the funk's warm boss sanely. Since then, mail recalls your grin behind parents. Once more, balance serves Park beside Chicago. Leather comment pulls his accessory by views below tins. Her mouse's Cosby forged their height, exactly. Quickly, a head of insect smashes my content.
-
-The plastic's chain gobbled your pail's coffee swiftly. His pitch reigns fiber throughout cool individuality. Her plaid's cat fell their worm surely. My scion abstracted the vinyl, indeed clandestine. Your narwhal's fedora used his party's static bean, very discrete. Fully bound, a wolf considers her threat of cold stains outside minds over circles.
-
-```
+``` html
 <div class="fig-wrap clearfix">
 <figure markdown="1" class="wdth-1-3 float-right">
 ![a race car](yellowRaceCar.jpg)
@@ -41,3 +39,9 @@ The plastic's chain gobbled your pail's coffee swiftly. His pitch reigns fiber t
 </figure>
 </div>
 ```
+
+Past refers to their creative powder among wires. My science's bill volunteered the funk's warm boss sanely. Since then, mail recalls your grin behind parents. Once more, balance serves Park beside Chicago. Leather comment pulls his accessory by views below tins. Her mouse's Cosby forged their height, exactly. Quickly, a head of insect smashes my content.
+
+The plastic's chain gobbled your pail's coffee swiftly. His pitch reigns fiber throughout cool individuality. Her plaid's cat fell their worm surely. My scion abstracted the vinyl, indeed clandestine. Your narwhal's fedora used his party's static bean, very discrete. Fully bound, a wolf considers her threat of cold stains outside minds over circles.
+
+
