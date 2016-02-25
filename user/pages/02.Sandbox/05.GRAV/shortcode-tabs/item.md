@@ -13,7 +13,6 @@ taxonomy:
 
 <cite>Image courtesy of you-know-who</cite>
 
-`scss --load-path ../shortcode-ui/scss --watch scss:css`
 
 Shortcodes seem like they have tremendous potential to incorporate "chunks" of html, css, javaScript into a page. An example of this would be the `ui-tabs` shortcode demonstrated below.
 
