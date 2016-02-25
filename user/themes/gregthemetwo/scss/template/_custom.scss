@@ -11,9 +11,6 @@ $alert-red: hsla(350, 100%, 30%, 1);
 $white: hsla(360, 100%, 100%, 1);
 $accent-orange: hsla(23, 88%, 43%, 1);
 // ++++++++++++++++++++!
-
-
-
 // ++++++++++++++++++++
 // General -- improve the handling of subheads. Note specific over-ride for the home page banner
 h1,
@@ -24,11 +21,13 @@ h5,
 h6 {
   line-height: 2.3rem;
 }
+
 // "adjacent sibling" combinator affects the H2 directly following H1
 // add extra room above suhbead (H2) directly below main site title (H1)
 h1 + h2 {
   margin-top: 1rem;
 }
+
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
 // Over-ride default Antimatter behavior of full-browser-width
@@ -40,6 +39,7 @@ html {
   max-width: 1200px;
   margin: 0 auto !important;
 }
+
 // Darkens the background color of the header bar after the page has been scrolled. Default color was white.
 // The styles below are modifications of core to position and color the header and logo area
 #header {
@@ -48,7 +48,6 @@ html {
   // left: 0;
   #logo {
     margin-top: 1rem;
-
     background: url('../images/gBug_round.svg') no-repeat;
     background-size: contain;
     h3 {
@@ -64,7 +63,6 @@ html {
 .scrolled#header {
   // left: 0;
   max-width: 1200px;
-
   background-color: $header-gray;
   #logo {
     margin-top: 0;
@@ -77,8 +75,8 @@ html {
     color: $accent-orange;
   }
 }
-// ++++++++++++++++++++!
 
+// ++++++++++++++++++++!
 // ++++++++++++++++++++
 // Copyright in Footer
 // ++++++++++++++++++++
@@ -87,20 +85,18 @@ html {
   flex-direction: row;
   margin-top: 1rem;
   text-align: left;
-
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
 }
-// ++++++++++++++++++++!
 
+// ++++++++++++++++++++!
 // ++++++++++++++++++++
 // FORMS
 // ++++++++++++++++++++
 .alert {
   margin-bottom: 1rem;
   padding: .5rem;
-
   color: $alert-red;
   border: 1px solid $alert-red;
   border-radius: 4px;
@@ -115,15 +111,15 @@ html {
   margin-right: 2em;
 }
 
-// .form-data[data-grav-field='checkboxes'],
-input[type='checkbox'],
-input[type='file'] {
+[type='checkbox'],
+[type='file'] {
   margin-bottom: .85rem;
 }
 
-input[type='date'] {
+[type='date'] {
   width: 12rem;
 }
+
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
 // Syntax Highlighting
@@ -148,12 +144,10 @@ pre {
   float: right;
   margin-left: 1.5rem;
 }
-
 .float-left {
   float: left;
   margin-right: 1.5rem;
 }
-
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
 // Figures with captions. Unfortunately, they are hard-coded to 1/3 column width.
@@ -166,10 +160,12 @@ pre {
   // float: right;
   // background: lighten($logo-yello, 30);
 }
+
 .wdth-1-3 {
   width: 33%;
   background: lighten($logo-yello, 30);
 }
+
 figure {
   p {
     font-size: 1.6em;
@@ -189,29 +185,6 @@ figure {
     padding: 0 1rem 1rem;
   }
 }
-
-// .fig-wrapper-1-3-r {
-//   width: 33%;
-//   margin: 0;
-//   float: right;
-// }
-// figure {
-//   background: lighten($logo-yello, 30);
-//   cite {
-//     font-size: .7rem;
-//     font-style: italic;
-//     line-height: 1rem;
-//     margin-bottom: 1rem;
-//     // text-decoration: none;
-//   }
-//   figcaption {
-//     font-size: .9rem;
-//     line-height: 1.2rem;
-//     margin: 0;
-//     padding: 0 1rem 1rem;
-//   }
-// }
-
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
 // Simple Image Gallery
@@ -219,7 +192,6 @@ figure {
 .simplegallery li {
   display: flex;
   list-style-type: none;
-
   flex-wrap: nowrap;
   align-items: flex-end;
 }
@@ -230,7 +202,6 @@ figure {
 
 .image-info {
   padding-left: 1em;
-
   flex: 1 1 70%;
   h2 {
     font-size: 1.5rem;
@@ -323,7 +294,6 @@ figure {
 // ++++++++++++++++++++
 .main {
   display: flex;
-
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -332,7 +302,6 @@ figure {
   display: flex;
   width: 80%;
   margin: auto;
-
   flex-flow: row wrap;
   p:first-child {
     font-size: 1.25em;
@@ -343,7 +312,6 @@ figure {
 .btn-wrap {
   width: 80%;
   margin: auto;
-
   align-self: flex-start;
   flex: 0 1 auto;
 }
@@ -354,7 +322,6 @@ figure {
   width: 470px;
   height: 320px;
   margin-top: 90px;
-
   flex: 0 1 auto;
 }
 
@@ -390,7 +357,6 @@ figure {
   left: 140px;
   width: 239px;
   height: 239px;
-
   background: url('../../../../user/pages/images/circArcs.png') no-repeat;
 }
 
@@ -400,7 +366,6 @@ figure {
   left: 140px;
   width: 239px;
   height: 239px;
-
   background: url('../../../../user/pages/images/circGradient.png') no-repeat;
 }
 
@@ -410,7 +375,6 @@ figure {
   width: 130px;
   height: 140px;
   margin-top: 90px;
-
   flex: 0 1 auto;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -419,7 +383,6 @@ figure {
 .matrix-sqr {
   width: 60px;
   height: 60px;
-
   background-color: $header-gray;
 }
 
@@ -430,29 +393,6 @@ figure {
   visibility: hidden;
 }
 
-// button[name='replay'] {
-//   // font-family: 'Oswald', sans-serif;
-//   font-size: 1.5em;
-//   font-weight: 400;
-//   line-height: 2em;
-//   visibility: hidden;
-//   padding: 0 12px;
-//   cursor: pointer;
-
-//   color: #FBAF23;
-//   color: hsl(39, 96%, 56%);
-//   border-radius: 12px;
-//   background-color: #333333;
-//   background-color: hsl(0, 0%, 20%);
-// }
-
-// button[name='replay']:hover {
-//   color: #333333;
-//   color: hsl(0, 0%, 20%);
-//   background-color: #FBAF23;
-//   background-color: hsl(39, 96%, 56%);
-// }
-
 @media (max-width: 600px) {
   .matrix-wrap {
     margin-top: 12px;
@@ -461,13 +401,6 @@ figure {
     margin-top: 0;
   }
 }
-//   button[name='replay'] {
-//     font-size: 1em;
-//     width: 5em;
-
-//     border-radius: 6px;
-//   }
-// }
 
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
@@ -477,12 +410,7 @@ figure {
   display: flex;
   margin: auto;
   cursor: pointer;
-  // width: 60%;
-  // *height: 100vh;
-
   background-color: $header-gray;
-  // background-color: hsla(0, 0%, 80%, 1);
-
   flex-flow: row wrap;
   justify-content: center;
   align-content: center;
@@ -492,15 +420,11 @@ figure {
   width: 90px;
   height: 90px;
   margin: 12px;
-
   border-radius: 50%;
   background-color: $text-darken;
-  // background-color: hsla(0, 0%, 60%, 1);
 }
 
 // ++++++++++++++++++++!
-
-
 // ++++++++++++++++++++
 // These two were supplied out of the box. Helps control the display of grav-lightslider gallery
 .grav-lightslider {
@@ -516,4 +440,5 @@ figure {
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem;
 }
+
 // ++++++++++++++++++++!

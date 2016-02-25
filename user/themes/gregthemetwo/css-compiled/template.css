@@ -808,11 +808,11 @@ html {
 .checkboxes label:nth-child(n+2) {
   margin-right: 2em; }
 
-input[type='checkbox'],
-input[type='file'] {
+[type='checkbox'],
+[type='file'] {
   margin-bottom: .85rem; }
 
-input[type='date'] {
+[type='date'] {
   width: 12rem; }
 
 pre {
