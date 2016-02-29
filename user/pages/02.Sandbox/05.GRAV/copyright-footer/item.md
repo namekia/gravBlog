@@ -2,10 +2,13 @@
 title: Copyright date (year) in footer
 date: 02/26/2016 10:39am
 author: Gregory Chambers
+header_image: false
 taxonomy:
   category: blog
   tag: [grav]
 ---
+
+![graphic copyright assembly](copyright_1800.png)
 
 A common design device for most websites is to include a copyright notice at the bottom of the web page in the footer area. The jury is out as to whether this copyright date has any legal purpose, but clients' seem to love it. However, a copyright line that is out of date can be a bad reflection on the site. 
 
@@ -16,6 +19,8 @@ In the code there are references to `copyright1` and `copyright2`. These are bit
 >>>>> Consider breaking this out the footer as a partial?
 
 **path to website footer:** `/user/themes/gregthemetwo/templates/partials/base.html.twig`
+
+====
 
 [SOURCE: Stack Exchange](http://craftcms.stackexchange.com/questions/6706/display-a-copyright-year-or-range)
 
