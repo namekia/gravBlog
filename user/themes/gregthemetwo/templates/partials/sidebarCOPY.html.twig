@@ -16,8 +16,9 @@
 {% endif %} #}
 
 
+
 <div class="sidebar-content">
-	<h4>Some Text Widget</h4>
+	<h4>Some2 Text Widget</h4>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 </div>
 
@@ -27,12 +28,12 @@
     {% include 'partials/taxonomylist.html.twig' with {'base_url':new_base_url, 'taxonomy':'tag'} %}
 </div>
 {% endif %}
-{# {% if config.plugins.archives.enabled %}
+{% if config.plugins.archives.enabled %}
 <div class="sidebar-content">
     <h4>Archives</h4>
 	{% include 'partials/archives.html.twig' with {'base_url':new_base_url} %}
 </div>
-{% endif %} #}
+{% endif %}
 
 {# {% if config.plugins.feed.enabled %}
 <div class="sidebar-content syndicate">
