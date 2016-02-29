@@ -24,6 +24,11 @@ debugger:
   shutdown:
     close_connection: true
   twig: true
+images:
+  default_image_quality: 85
+  cache_all: true
+  cache_perms: '0755'
+  debug: true
 media:
   enable_media_timestamp: true
   upload_limit: 0

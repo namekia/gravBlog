@@ -9,6 +9,7 @@ taxonomy:
 ---
 
 ![graphic copyright assembly](copyright_1800.png)
+![graphic copyright assembly](copyright_900.png)
 
 A common design device for most websites is to include a copyright notice at the bottom of the web page in the footer area. The jury is out as to whether this copyright date has any legal purpose, but clients' seem to love it. However, a copyright line that is out of date can be a bad reflection on the site. 
 
