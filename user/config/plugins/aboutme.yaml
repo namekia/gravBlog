@@ -1,0 +1,42 @@
+enabled: true               # Activate the plugin
+built_in_css: true          # Use the default CSS
+
+name: 'Gregory Chambers'         # Your full name
+title: 'Graphic Designer'      # Your title/job
+description: 'Her Asheville insect applied our cheap beer past, grandly. Recent outline of pail lists wolf throughout claw. Happily, shift reigns your threat. Their chains aquarium saved his ripped vinegar harshly. The vinyl decided my sheet. When? The nobody funk loved your beans thin fingernail coldly, very ethical. Cold paper mixes his vinyl records after muses within wires. Slowly refined, an equal sandwich shop refines her snazzy high-top sneakers since monkeys toward seats. Their sight used my mail hour fully. The elephant ruled your milky sandwich shop mainly.'   # Tell us a bit about yourself
+
+picture_src: user/plugins/aboutme/assets/avatars/avatar_sam_120.png      # The path of your avatar, I recommend to use the admin plugin and go to the plugin configuration so you can upload your avatar there, the path will be filled for you.
+
+gravatar:
+  enabled: false                    # Enables gravatar, it will override picture_src option
+  email: "example@test.com"         # The email address your gravatar is attached to
+  size: 100                         # The size of your gravatar
+
+social_pages:
+  enabled: false                     # Enables social network pages
+  use_font_awesome: false           # Use FontAwesome, enable this option only if FontAwesome is not loaded by your theme or another plugin
+  pages:                            # Your social network pages here ! Change the order at will by changing the default position value. You can also change the font icon and the title
+    facebook:
+      icon: facebook-official
+      title: Facebook
+      position: 1
+    twitter:
+      icon: twitter
+      title: Twitter
+      position: 2
+    google_plus:
+      icon: google-plus-square
+      title: Google+
+      position: 3
+    github:
+      icon: github
+      title: GitHub
+      position: 4
+    linkedin:
+      icon: linkedin-square
+      title: LinkedIn
+      position: 5
+    instagram:
+      icon: instagram
+      title: Instagram
+      position: 6

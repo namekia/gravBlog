@@ -2,8 +2,8 @@ enabled: true
 theme:
   tabs: default     # default|lite|badges
 
-#You can change the tabs theme per-page by providing custom page headers:
+# You can change the tabs theme per-page by providing custom page headers:
 
-#shortcode-ui:
+# shortcode-ui:
 #    theme:
 #        tabs: lite

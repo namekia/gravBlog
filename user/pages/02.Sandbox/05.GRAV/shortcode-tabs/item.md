@@ -5,10 +5,10 @@ author: Gregory Chambers
 taxonomy:
   category: blog
   tag: [grav, plugin]
-
-#  shortcode-ui:
-#    theme:
-#        tabs: lite     # default|lite|badges
+<!--   
+shortcode-ui:
+    theme:
+        tabs: lite     # default|lite|badges -->
 ---
 
 <cite>Image courtesy of you-know-who</cite>

@@ -1,0 +1,49 @@
+enabled: true
+built_in_css: false
+name: 'Gregory Chambers'
+title: 'Graphic Designer'
+description: 'Her Asheville''s insect applied our cheap beer past, grandly. Recent outline of pail lists wolf throughout claw. Happily, shift reigns your threat. Their chain aquarium saved his ripped vinegar harshly. The vinyl decided my sheet. When? The nobody funk loved your bean''s thin fingernail coldly, very ethical. Cold paper mixes his vinyl records after muses within wires. Slowly refined, an equal sandwich shop refines her snazzy high-top sneakers since monkeys toward seats. Their sight used my mail''s hour fully. The elephant ruled your milky sandwich shop mainly.'
+picture_src: user/plugins/aboutme/assets/avatars/avatar_sam_120.png
+gravatar:
+  enabled: false
+  email: example@test.com
+  size: 100
+social_pages:
+  enabled: false
+  use_font_awesome: false
+  pages:
+    facebook:
+      icon: facebook-official
+      title: Facebook
+      position: 1
+    twitter:
+      icon: twitter
+      title: Twitter
+      position: 2
+    google_plus:
+      icon: google-plus-square
+      title: Google+
+      position: 3
+    github:
+      icon: github
+      title: GitHub
+      position: 4
+    linkedin:
+      icon: linkedin-square
+      title: LinkedIn
+      position: 5
+    instagram:
+      icon: instagram
+      title: Instagram
+      position: 6
+tab:
+  - 'on'
+  - 'on'
+  - 'on'
+  - 'on'
+  - 'on'
+  - 'on'
+  - 'on'
+  - 'on'
+  - 'on'
+  - 'on'
