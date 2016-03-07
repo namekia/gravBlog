@@ -2,7 +2,7 @@
 title: Home
 menu: Home
 blog_url: home
-banner: blueVan3600x560.jpg
+banner: blueVan2400x600.jpg
 body_classes: header-image fullwidth
 
 template: blog
