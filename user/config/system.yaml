@@ -10,7 +10,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /home
+  alias: /gChambers #this was /home -- check what appears in Feedly
   hide_in_urls: false
 pages:
   theme: gregthemetwo

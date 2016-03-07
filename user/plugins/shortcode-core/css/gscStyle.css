@@ -1,0 +1,19 @@
+  .gFlex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+  .gFlex-item {
+    padding: 1em;
+    /*margin: auto;*/
+    height: 150px;
+    /*width: 200px;*/
+    background-color: gray;
+    color: white;
+  }
