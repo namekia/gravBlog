@@ -1,0 +1,15 @@
+.blueBox-wrapper {
+width: 50%;
+// height: 200px;
+background-color: green;
+}
+.blueBox {
+padding: 1em;
+width: 80%;
+
+background-color: blue;
+}
+.bbox {
+text-align: center;
+color: white;
+}

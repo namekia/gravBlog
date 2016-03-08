@@ -10,6 +10,10 @@ taxonomy:
 
 ![kids swimming](shortcodeKids.jpg)
 
+OK, lets try another one that's a bit more ambitious. This one is called BlueBox.
+
+[blubox]This is the content that we're going to insert into the nested blue box. Interested to find out what will happen. Probably nothing.[/blubox]
+
 Let's try a built-in core shortcode. The following shortcode will add an underline to some text. The third [u]word[/u] is underlined. OK, now we are going to try a modified shortcode that I put together.
 
 This one will turn the selected text bold and red. The trigger will be... (can't show you). Your chain [bld]refines our vetted dilemma[/bld] of monkeys behind holes.
@@ -17,3 +21,4 @@ This one will turn the selected text bold and red. The trigger will be... (can't
 >>>>Stumbling Block #1 -- code-highlighting the trigger prior to running the shortcode caused it not to fire. Took me hours to figure that out!!
 
 Shortcodes are defined in a `.php` file that is located in the `shortcode-core` plugin folder. For example, the shortcode demonstrated above is: `/user/plugins/shortcode-core/shortcodes/BoldRedShortcode.php`.
+
