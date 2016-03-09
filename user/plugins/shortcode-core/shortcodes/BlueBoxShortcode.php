@@ -6,7 +6,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 class BlueBoxShortcode extends Shortcode
 {
-    public function init()
+    function init()
     {
         $this->shortcode->getHandlers()->add('blubox', function(ShortcodeInterface $sc) {
 
@@ -14,12 +14,10 @@ class BlueBoxShortcode extends Shortcode
             $this->shortcode->addAssets('css', 'plugin://shortcode-core/css/sc-sandbox.css');
             // return '<div class="blueBox-wrapper clearfix">
             //           <div class="blueBox">
-
-            //           <div class="bbox">'.$sc->getContent().'</div>
-            //       </div>
-            //     </div>';
-            // return '<span style="font-weight: bold; color: red;">'.$sc->getContent().'</span>';
-            $output = $this->twig->processTemplate('templates/partials/sc-bluebox.html.twig', [
+            //             <div class="bbox">'.$sc->getContent().'</div>
+            //           </div>
+            //         </div>';
+            $output = $this->twig->processTemplate('partials/sc-bluebox.html.twig', [
                 'shortcode' => $sc,
             ]);
 

@@ -4,7 +4,6 @@ namespace Grav\Plugin\Shortcodes;
 
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
-
 class BrowserShortcode extends Shortcode
 {
     public function init()
