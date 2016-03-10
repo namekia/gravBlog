@@ -10,7 +10,7 @@ taxonomies: [category,tag,month]
 
 summary:
   enabled: true                             # enable or disable summary of page
-  format: short                             # long = summary delimiter will be ignored; short = use the first occurrence of delimiter or size
+  format: long                             # long = summary delimiter will be ignored; short = use the first occurrence of delimiter or size
   size: 900                                 # Maximum length of summary (characters)
   delimiter: ===                            # The summary delimiter
 

@@ -17,6 +17,11 @@ class BlueBoxShortcode extends Shortcode
                         <div class="bbox">'.$sc->getContent().'</div>
                       </div>
                     </div>';
+            // $output = $this->twig->processTemplate('partials/sc-bluebox.html.twig', [
+            //     'shortcode' => $sc,
+            // ]);
+
+            // return $output;
         });
     }
 }
