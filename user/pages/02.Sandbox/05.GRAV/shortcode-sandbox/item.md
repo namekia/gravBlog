@@ -26,4 +26,14 @@ In any case the example below was created by pasting the `html` directly into `B
 
 [blubox]This is the content that we're going to insert into the nested blue box. Interested to find out what will happen. Probably nothing.[/blubox]
 
-Yet another shortcode -- this one build on the previous two. I'm going to investigate the advice given by @rhukster with regard to adding a separate `twig` file. The twig file should allow for more complex coding. -- or not.
+Yet another shortcode &ndash; this one build on the previous two. We'll call this one `RedBoxShortcode.php` and it'll live at `/user/plugins/shortcode-ui/shortcodes/RedBoxShortcode.php`. I'm going to investigate the advice given by @rhukster with regard to adding a separate `twig` file. The twig file should allow for more complex coding. &ndash; or not.
+
+[redbox]Your scion abstracted our robot, very pint. Her bill bound his javaScript's pug. Their sense's Asheville forged the paper's surface. In the future, a Chicago of science calls my grin. Once upon a time, warm home of boss makes might until toolkit. But before that, a rich key considers the hilarious worm concerning values.[/redbox].
+
+Surprisingly, the shortcode above seems to work! Now let's add some more custom elements.
+
+[greenbox]Her bill bound his javaScript's pug. Their senses Asheville forged the paper's surface. In the future, a Chicago of science calls my grin. Once upon a time, warm home of boss makes might until toolkit. But before that, a rich key considers the hilarious worm concerning values.[/greenbox].
+
+**This is frigg'n incredible!** I've actually created my own plugin! Using @rhukster's code, of course, but still &endash;, this is a first for me! I'm obviously very excited.
+
+The green box above is generated through the `GreenBoxShortcode.php` shortcode this located in the `shortcode-greg` directory which, in turn, is in the plugins directory.

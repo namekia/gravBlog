@@ -1,0 +1,23 @@
+// Color Variables
+$base-cool: hsla(141, 86%, 19%, 1); //darkGreen
+$secondary-cool: hsla(141, 86%, 43%, .54); //lighterGreen
+$txt-white: hsla(360, 100%, 100%, .8);
+
+.txt-box {
+  text-align: center;
+  color: $txt-white;
+}
+
+.green-box-wrapper {
+  background-color: $base-cool;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.green-box {
+  padding: 1em;
+  margin: 2em;
+  background-color: $secondary-cool;
+}

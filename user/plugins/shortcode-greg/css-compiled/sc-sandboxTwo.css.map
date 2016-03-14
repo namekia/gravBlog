@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,QAAS;EACP,UAAU,EAAE,MAAM;EAClB,KAAK,EAJK,wBAAyB;;AAOrC,kBAAmB;EACjB,gBAAgB,EAVN,OAAsB;EAWhC,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,UAAU;EACrB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;;AAGrB,UAAW;EACT,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,GAAG;EACX,gBAAgB,EAnBD,uBAAwB",
+"sources": ["../scss/sc-sandboxTwo.scss"],
+"names": [],
+"file": "sc-sandboxTwo.css"
+}
