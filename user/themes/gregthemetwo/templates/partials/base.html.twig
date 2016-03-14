@@ -75,11 +75,11 @@
 {# SOURCE: http://craftcms.stackexchange.com/questions/6706/display-a-copyright-year-or-range #}
         <div class="copyright-container">
             <div class="copyright-left">
-                {% if site.copyright %}
+        {% if site.copyright %}
         {# {% set startYear = '{{ site.copyright.startYear }}' %} #}
-        {% set currentYear = now|date("Y") %}
- {% endif %}
- {#        {% if startYear == currentYear %}
+            {% set currentYear = now|date("Y") %}
+        {% endif %}
+        {#  {% if startYear == currentYear %}
             {% set copyrightYears = startYear %}
         {% else %}
             {% set copyrightYears = startYear ~ ' - ' ~ currentYear %}
