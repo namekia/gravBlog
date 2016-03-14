@@ -23,3 +23,4 @@ This one will turn the selected text bold and red. The trigger will be... (can't
 >>>>Stumbling Block #1 -- code-highlighting the trigger prior to running the shortcode caused it not to fire. Took me hours to figure that out!!
 
 Shortcodes are defined in a `.php` file that is located in the `shortcode-core` plugin folder. For example, the shortcode demonstrated above is: `/user/plugins/shortcode-core/shortcodes/BoldRedShortcode.php`.
+

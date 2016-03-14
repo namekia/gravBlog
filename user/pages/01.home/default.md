@@ -1,5 +1,5 @@
 ---
-title: Home
+title: gChambers Sandbox
 menu: Home
 blog_url: home
 banner: blueVan2400x600.jpg
@@ -21,7 +21,7 @@ content:
     pagination: false
 
 feed:
-    description: Sample Blog Description
+    description: gChambers Sandbox Blog
     limit: 10
 
 pagination: true

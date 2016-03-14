@@ -23,7 +23,7 @@ routes:
 #  /something/else: '/blog/sample-3'         # Alias for /blog/sample-3
 #  /new/(.*): '/blog/$1'                     # Regex any /new/my-page URL to /blog/my-page Route
 
-#menu:                                      # Sample Menu Example
+menu:                                      # Sample Menu Example
 #    - text: Source
 #      icon: github
 #      url: https://github.com/getgrav/grav
@@ -32,11 +32,11 @@ routes:
 
 # ++++++++++++++++++++
 # COPYRIGHT module inspired by sora-article-blog-template
-# called in the footer area of /user/themes/gregTheme/templates/partials/base.html.twig
+# called in the footer area of /user/themes/gregthemetwo/templates/partials/base.html.twig
 # ++++++++++++++++++++
 copyright:
     text1: Copyright
-    # year: 2015
+    startYear: 2012
     url: http://s1nga.com
     text2: gregCompanyName
 
