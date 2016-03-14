@@ -2,7 +2,7 @@
 title: TESTTest
 date: 03/10/2016 1:23pm
 author: Gregory Chambers
-#<!-- header_image: false -->
+# header_image: false
 taxonomy:
   category: blog
   tag: [grav, images]
