@@ -2,7 +2,7 @@
 title: Contact
 #recaptchacontact: true
 form:
-    name: my-nice-form
+    name: gContactFormTest
     fields:
         - name: name
           label: Name
