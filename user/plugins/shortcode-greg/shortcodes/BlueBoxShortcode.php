@@ -12,8 +12,8 @@ class BlueBoxShortcode extends Shortcode
 
             // Add assets
             $this->shortcode->addAssets('css', 'plugin://shortcode-core/css/sc-sandbox.css');
-            return '<div class="blueBox-wrapper clearfix">
-                      <div class="blueBox">
+            return '<div class="blue-box-wrapper clearfix">
+                      <div class="blue-box">
                         <div class="bbox">'.$sc->getContent().'</div>
                       </div>
                     </div>';

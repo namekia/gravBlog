@@ -5,11 +5,11 @@ namespace Grav\Plugin\Shortcodes;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 
-class FigureShortcode extends Shortcode
+class zzzFigureShortcode extends Shortcode
 {
     public function init()
     {
-        $this->shortcode->getHandlers()->add('ui-figure', function(ShortcodeInterface $sc) {
+        $this->shortcode->getHandlers()->add('ZZZui-figure', function(ShortcodeInterface $sc) {
 
             // Add assets
             $this->shortcode->addAssets('css', 'plugin://shortcode-ui/css/ui-figure.css');
