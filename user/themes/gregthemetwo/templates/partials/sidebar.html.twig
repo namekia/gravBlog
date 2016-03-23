@@ -33,10 +33,10 @@
 	{% include 'partials/archives.html.twig' with {'base_url':new_base_url} %}
 </div>
 {% endif %}
-{# {% if config.plugins.feed.enabled %}
+{% if config.plugins.feed.enabled %}
 <div class="sidebar-content syndicate">
     <h4>Syndicate</h4>
     <a class="button" href="{{ feed_url }}.atom"><i class="fa fa-rss-square"></i> Atom 1.0</a>
     <a class="button" href="{{ feed_url }}.rss"><i class="fa fa-rss-square"></i> RSS</a>
 </div>
-{% endif %} #}
+{% endif %}
