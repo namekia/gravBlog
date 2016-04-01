@@ -5,8 +5,7 @@
   margin: .5em 0;
   background-color: #fbaf23; }
   .figur cite {
-    padding-left: 1rem;
-    margin-top: .25rem;
+    padding: .4rem 0 0 1rem;
     color: #1a1a1a; }
   .figur .caption {
     font-size: .8rem;
@@ -34,6 +33,11 @@
 .txt-box {
   text-align: center;
   color: rgba(255, 255, 255, 0.8); }
+
+.attrb {
+  color: red;
+  font-size: .8rem;
+  margin-top: -.5rem; }
 
 .green-box-wrapper {
   display: flex;

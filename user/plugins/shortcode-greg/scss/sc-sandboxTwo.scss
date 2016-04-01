@@ -22,8 +22,8 @@ $txt-dark: hsla(0, 0%, 10%, 1);
   margin: .5em 0;
   background-color: $logo-yello;
   cite {
-    padding-left: 1rem;
-    margin-top: .25rem;
+    padding: .4rem 0 0 1rem;
+    // margin-top: .5rem;
     color: $txt-dark;
   }
   .caption {
@@ -60,7 +60,12 @@ $txt-dark: hsla(0, 0%, 10%, 1);
   text-align: center;
   color: $txt-white;
 }
-
+// Shortcode: Attribute -- adds a photo credit to an image
+.attrb {
+  // color: red;
+  font-size: .8rem;
+  margin-top: -.5rem;
+}
 .green-box-wrapper {
   display: flex;
   background-color: $base-cool;
