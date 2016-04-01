@@ -5,14 +5,14 @@ author: Gregory Chambers
 taxonomy:
   category: blog
   tag: [grav, plugin]
-<!--   
-shortcode-ui:
-    theme:
-        tabs: lite     # default|lite|badges -->
+# shortcode-ui:
+#     theme:
+#         tabs: lite     # default|lite|badges
 ---
 
-<cite>Image courtesy of you-know-who</cite>
 
+
+[attrb]Acme Photo Service[/attrb]
 
 Shortcodes seem like they have tremendous potential to incorporate "chunks" of html, css, javaScript into a page. An example of this would be the `ui-tabs` shortcode demonstrated below.
 

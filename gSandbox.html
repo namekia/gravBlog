@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Sandbox</title>
+</head>
+<body>
+  Title: Shortcode: image photo path
+  Body: Making progress with my first shortcode plugin. However, there is one hurdle that's giving me a hard time.
+
+  Trying to create a client-friendly method to add photos with captions into an article. My shortcode is essentially an HTML figure element with an image, citation (photo credit) and caption. The issue I'm having is an incomplete image path. The `img` `src` is resolving to one folder above where it is actually being stored -- in the article folder along with `item.md`.
+
+  In researching a solution, I'm coming to the conclusion that some regular expression `code-fu` or a possible re-direct needs to be applied.  Any help with code explanation would be greatly appreciated.
+
+ Currently, the shortcode thinks that the image is located at:
+ `http://localhost/siteRoot/blogRoot/sectionRoot/image.jpg`
+
+ The correct path should be:
+  `http://localhost/siteRoot/blogRoot/sectionRoot/**specificArticle/**image.jpg`
+
+
+  Here is the `twig` code with the `php` code below:
+
+  ```twig
+<figure class="figur-wrapper clearfix">
+    <div class="figur {{ width }} {{ position }}" id="{{ hash ~ key }}">
+      <img src="{{ image }}"  class="cover" alt="captioned photo">
+      <cite>{{ cite }}</cite>
+        <div class="caption">{{ shortcode.getContent() }}</div>
+    </div>
+</figure>
+  ```
+
+```php
+<?php
+
+namespace Grav\Plugin\Shortcodes;
+
+use Thunder\Shortcode\Shortcode\ShortcodeInterface;
+
+class FigurShortcode extends Shortcode
+{
+    function init()
+    {
+        $this->shortcode->getHandlers()->add('figur', function(ShortcodeInterface $sc) {
+
+            // Add assets
+            $this->shortcode->addAssets('css', 'plugin://shortcode-greg/css-compiled/sc-sandboxTwo.css');
+
+            $hash = $this->shortcode->getId($sc);
+
+            $output = $this->twig->processTemplate('partials/sc-figur.html.twig', [
+                'hash' => $hash,
+                'position' => $sc->getParameter('position', 'right'),
+                'width' => $sc->getParameter('width', 'one-third'),
+                'image' => $sc->getParameter('image', ''),
+                'cite' => $sc->getParameter('cite', 'Image by author'),
+                'shortcode' => $sc,
+            ]);
+
+            return $output;
+        });
+
+  ```
+
+</body>
+</html>

@@ -754,17 +754,9 @@ h6 {
 h1 + h2 {
   margin-top: 1rem; }
 
-#sb-site,
-.sb-site-container,
-.sb-slidebar,
-body,
-html {
-  max-width: 1200px;
-  margin: 0 auto !important; }
-
 #header {
   background-color: rgba(179, 179, 179, 0.75);
-  box-shadow: 0 0.05rem 1rem rgba(179, 179, 179, 0.75); }
+  box-shadow: 0 5px 10px 0 rgba(102, 102, 102, 0.75); }
   #header #logo {
     margin-top: 1rem;
     background: url("../images/gBug_round.svg") no-repeat;
@@ -776,8 +768,8 @@ html {
     max-width: 1000px; }
 
 .scrolled#header {
-  max-width: 1200px;
-  background-color: rgba(179, 179, 179, 0.75); }
+  background-color: rgba(179, 179, 179, 0.75);
+  box-shadow: 0 5px 10px 0 rgba(102, 102, 102, 0.75); }
   .scrolled#header #logo {
     margin-top: 0; }
     .scrolled#header #logo h3 {
